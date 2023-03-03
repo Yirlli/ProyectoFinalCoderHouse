@@ -23,7 +23,7 @@
     /*MENU DE NAVEGACION*/
     
  
-    .barra_navegacion{ height: 14.5vh;
+    .barra_navegacion{ /*height: 14.5vh;*/
     background-color:rgba(39, 119, 119, 0.562);}
     .header .burger{display: none;
         justify-content: right;
@@ -34,7 +34,7 @@ padding: 2rem;}
 
     .nav-bar{
         gap: 6rem;
-        height: 5vh;
+        /*height: 5vh;*/
 
     }
 .nav-bar a{font-size: 25px;}
@@ -66,7 +66,7 @@ border-color: black;}
     
 /*height: 70vh;*/}
     .titulo_principal{
-       height: 65vh; }
+     /*  height: 65vh; */}
     
     .titulo_principal h1{
     margin-top: 20rem;

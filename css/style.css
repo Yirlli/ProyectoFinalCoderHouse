@@ -34,9 +34,8 @@ padding: 2rem;}
 
     .nav-bar{
         gap: 6rem;
-        /*height: 5vh;*/
-
     }
+    .header-right{margin-top: 2%;}
 .nav-bar a{font-size: 25px;}
 
     a{text-decoration: none;
@@ -51,7 +50,7 @@ padding: 2rem;}
 font-size: 20px;}
 
 
-.header img{width: 16vw;}
+.header img{width: 8vw;}
 aside{display: flex;}
 
 .list-group .active{background-color: rgba(39, 119, 119, 0.562);
@@ -63,10 +62,12 @@ border-color: black;}
     /* PAGINA PRINCIPAL*/
     
 .index{background-image: url(../img/pexels-fauxels-3183198.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
     
 /*height: 70vh;*/}
     .titulo_principal{
-     /*  height: 65vh; */}
+    padding-top: 8%;}
     
     .titulo_principal h1{
     margin-top: 20rem;
@@ -96,11 +97,14 @@ margin-top: 6%;
 }
     .categorias_titulo{height: 15vh;}
  
+.container_categorias{background-color:rgba(39, 119, 119, 0.096) ;
+padding-top: 2%;
+padding-bottom: 2%;}
 .tipos_de_categorias h3{margin-top: 3.5rem;
 font-size: 33px;}
 
-    .imagenes_categorias{    height: 30vh;
-        width: 30vw;
+    .imagenes_categorias{    height: 28vh;
+        width: 23vw;
     border-radius: 15%;
     }
 
@@ -119,22 +123,26 @@ font-size: 35;}
     .grid-container{display: grid;
     grid-template-columns: 1fr ;
     grid-column-gap: 10%;
-
 width: 60vw; 
 justify-items: center;}
 
-.accordion-body img {width:35vw;
+.accordion-body img {width:20vw;
 border-radius: 30%;
 align-self: center;}
 
- 
- .carousel-item img{ width: 30vw;} 
+.accordion{width: 50%;
+margin-left:22%}; 
+ .carousel-item img{ width: 10vw;} 
  .grid-carusel h3  {text-align: center;
-    padding: 2rem;
+    padding-top:15%;
+    padding-bottom: 10%;
+    font-size: 40px;    
 }
 
 .grid-acordion h3  {text-align: center;
-    padding: 2rem;
+    padding-top:15%;
+    padding-bottom: 10%;
+    font-size: 40px;
 }
     .clientes{flex-direction: column;
        justify-content: center;
@@ -534,6 +542,10 @@ margin-top: 5%;}
 
     /* modificaciones generales navbar */ 
     .header-right{display:none;}
+    .header .burger{ display: flex;
+        margin-top: 20px;
+    
+}
     
     /* index */
     .header img{width: 25vw;}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>center
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>SignUp</title>
+</head>
+<body>
+
+    <section class="d-flex crear_cuenta flex-column align-items-center">
+        <form class=" justify-content-center">
+            <img src="../img/Logotipo.png" alt="logo" >
+            <div class="fondo_apertura d-flex justify-content-center">
+                <div class=" mb-3 apertura d-flex flex-column">
+                    <h1>Crea tu cuenta</h1>
+                    <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" required  placeholder="Ingresa tus nombres y apellidos...">
+                    <label for="genero">Género</label>
+                    <select class="form-select" aria-label="Default select example" required>
+                        <option selected>Seleccione...</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <label for="exampleInputEmail1" class="form-label">Fecha de nacimiento</label>
+                    <input type="date" class="form-control" id="exampleFormControlInput1" required>
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"  required placeholder="Ingresa tu email...">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1"required placeholder="Ingresa una contraseña...">
+                    <label for="exampleInputPassword1" class="form-label">Repite tu contraseña</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1" required placeholder="Repite tu contraseña...">
+                    <label for="selecciona_pais">País</label>
+                    <select class="form-select" aria-label="Default select example" required>
+                        <option selected>Seleccione...</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="USA">USA</option>
+                        <option value="Eruopa">Europa</option>
+                        <option value="Otro">Otro</option>
+                        
+                    </select>
+                    <label>Empresa</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Ingresa la empresa donde trabajas...">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Acepto Términos y Condiciones
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Quiero recibir promociones y boletines informativos
+                        </label>
+                      </div>
+                    <div class=" flex justify-content-center">
+                        <button type="submit" class="boton_cuenta"> Enviar</button>
+                        <button type="reset" class="boton_cuenta">Borrar</button>
+                    </div>
+                </div>
+                    
+            </div>
+        </form>
+        <a href="../index.html" class="volver">Volger a página de inicio</a>
+        
+    </section>
+    <footer>
+        <div class="container_pie_de_pagina flex">
+            <div class="logo_pie flex"> 
+                <ul class="logotipos flex">
+                    <li class="footer"><a href="#"><img src="../img/Logotipo.png" alt="logo" class="logo_footer"></a></li>
+             
+                </ul>
+                <ul class="logo_redes flex">
+                    <li class="redes"><a href="#"><img src="../img/twitter.png" alt="logo"></a></li>
+                    <li class="redes"><a href="#"><img src="../img/ig.png" alt="logo"></a></li>
+                </ul>
+            </div>
+            <ul class="pie_de_pagina flex">
+                
+                <li class="footer"><a href="#">Términos y Condiciones</a></li>
+                <li class="footer"><a href="./sobrenosotros.html">Sobre Nosotros</a></li>
+                <li class="footer"><a href="#">Tipos de pagos</a></li>
+            </ul>
+            <ul class="pie_de_pagina flex">
+                
+                <li class="footer"><a  href="./iniciaSesion.html">Iniciar Sesión</a></li>
+                <li class="footer"><a  href="./crearCuenta.html">Crear Cuenta</a></li>
+                <li class="footer"><a  href="./PreguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   
+</body>
+</html>

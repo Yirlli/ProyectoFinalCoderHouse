@@ -1,0 +1,566 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* RESET*/
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;}
+
+
+/*Codigo reutilizable, que se usa en todas las páginas */    
+   
+
+    .flex{display: flex;}
+
+
+    .volver{
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;}
+    
+
+    /*MENU DE NAVEGACION*/
+    
+ 
+    .barra_navegacion{ height: 14.5vh;
+    background-color:rgba(39, 119, 119, 0.562);}
+    .header .burger{display: none;
+        justify-content: right;
+        
+       }
+  .header{
+padding: 2rem;}
+
+    .nav-bar{
+        gap: 6rem;
+        height: 5vh;
+
+    }
+.nav-bar a{font-size: 25px;}
+
+    a{text-decoration: none;
+        color:black;
+        
+    }
+    .menu{list-style: none;
+   font-weight: bold; }
+    
+    #pais{height: 3rem;
+    width: 8rem;
+font-size: 20px;}
+
+
+.header img{width: 16vw;}
+aside{display: flex;}
+
+.list-group .active{background-color: rgba(39, 119, 119, 0.562);
+border-color: black;}
+    .list-group a:hover{background-color: rgb(18, 143, 165);
+   }
+
+    
+    /* PAGINA PRINCIPAL*/
+    
+.index{background-image: url(../img/pexels-fauxels-3183198.jpg);
+    
+/*height: 70vh;*/}
+    .titulo_principal{
+       height: 65vh; }
+    
+    .titulo_principal h1{
+    margin-top: 20rem;
+margin-bottom: 10%;
+font-size: 60px;
+}
+
+.titulo_principal h4{
+font-size: 30px;
+margin-bottom: 2rem;
+}
+
+    
+.boton_acceder{width: 8vw;
+    height: 5vh;
+border-radius: 30%;
+margin-bottom: 5%;
+background-color: darkcyan;
+font-size: 20px;
+border: none;
+font-weight: bold;}
+    
+    /* CATEGORIAS DE ASESORIAS*/
+    .categorias_titulo h2{
+font-size: 40px;
+margin-top: 6%;
+}
+    .categorias_titulo{height: 15vh;}
+ 
+.tipos_de_categorias h3{margin-top: 3.5rem;
+font-size: 33px;}
+
+    .imagenes_categorias{    height: 30vh;
+        width: 30vw;
+    border-radius: 15%;
+    }
+
+    .clientes_resena{padding-left:6rem ;
+    padding-right: 6rem;
+padding-bottom: 6rem;
+background-color:rgba(153, 201, 201, 0.664)}
+
+.clientes_resena h3{font-size: 40px;
+    margin-top: 6%;
+    justify-content: space-between;
+   padding-right: 4rem;
+font-size: 35;}
+    /* NUESTROS CLIENTES */
+
+    .grid-container{display: grid;
+    grid-template-columns: 1fr ;
+    grid-column-gap: 10%;
+
+width: 60vw; 
+justify-items: center;}
+
+.accordion-body img {width:35vw;
+border-radius: 30%;
+align-self: center;}
+
+ 
+ .carousel-item img{ width: 30vw;} 
+ .grid-carusel h3  {text-align: center;
+    padding: 2rem;
+}
+
+.grid-acordion h3  {text-align: center;
+    padding: 2rem;
+}
+    .clientes{flex-direction: column;
+       justify-content: center;
+       
+    }
+
+
+        .ficha_clientes{margin-left: 20vw;}
+
+
+    /*SUSCRIPCION AL BOLETIN*/
+
+    .suscribe_boletin{margin-top: 10%;
+        margin-bottom: 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .suscribe_boletin h2{font-size: 30px;}
+        .suscribe_boletin input{
+        font-size: 25px;
+    width: 25vw;
+    height: 2.5vh;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem
+    }
+    .suscribe_boletin button{width: 6rem;
+    font-size: 20px;}
+
+    .suscribe_boletin button:hover{background-color:rgba(153, 201, 201, 0.664) ;
+    width: 8rem;
+height: 4rem;
+border-radius: 30%;
+border: none;}
+    
+    
+    
+    /* PIE DE PAGINA */
+    
+    .container_pie_de_pagina{background-color: rgba(39, 119, 119, 0.562);
+    width: 100%;
+}
+    .pie_de_pagina{
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        
+        gap: 3rem;
+    flex-direction: column;}
+    .footer{list-style: none;
+        width: 10vw;
+  }
+
+  
+  
+  .logo_footer{width: 4vw;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+margin-left: 3.5rem;
+}
+  
+  .redes{margin-right: 1rem;
+margin-left: 3.5rem;
+margin-bottom: 2rem;
+}
+    
+
+    /*Pagina Inicion de Sesion*/
+
+    .inicio_de_sesion{
+    background-image: url(../img/pexels-fauxels-3183198.jpg);}
+
+    .inicio_de_sesion img{
+        margin-top: 3vw;
+margin-left: 8vw;
+    }
+    .fondo_inicio_sesion{background-color: rgb(153, 201, 201);
+        margin-bottom: 15%;
+        border-radius: 40%;
+        margin-top: 5%;
+        width: 35vw;
+}
+
+    .formulario_inicio_sesion{
+     
+   
+gap: 1em;
+}
+
+.inicio_de_sesion .olvide_contraseña{margin-left: 33%;
+}
+.formulario_inicio_sesion h1{font-size: 40px; margin-top: 20%;
+    }
+
+.formulario_inicio_sesion label, input {font-size: 20px;}
+
+.formulario_inicio_sesion  input {width: 60%;}
+
+
+.inicio_de_sesion .volver{ margin-top: 3%;
+margin-bottom: 8%;}
+
+.boton_cuenta_nueva{width: 8vw;
+    
+    border-radius: 40px;
+    margin-right: 25px;
+    margin-top:8%;
+    margin-bottom: 10%;
+    background-color: darkcyan;
+   }
+/* Apertura de cuenta*/   
+
+.crear_cuenta{
+    
+    background-image: url(../img/pexels-fauxels-3183198.jpg);
+}
+.crear_cuenta img{
+margin-top: 3vw;
+margin-left: 18vw;}
+
+.fondo_apertura{background-color: rgb(153, 201, 201);
+width: 55vw;
+border-radius: 40%;
+margin-top: 3%;
+margin-bottom: 8%;
+}
+.apertura{
+    gap:1rem;
+    margin-top: 10rem;
+    width: 26rem;
+  }
+
+.apertura h1, label,input{
+font-size: 25px;
+}
+
+.apertura h1{font-size: 40px;
+    text-align: center;
+    margin-bottom: 10%;
+   
+}
+
+.apertura label{font-weight: bold;}
+
+#genero{height:2.5vh;
+font-size: 20px;}
+
+/*.olvide_contraseña{margin-top: 4%;}*/
+
+.crear_cuenta a{margin-top: 2%;
+margin-bottom: 5%;}
+/*  BOTONES*/    
+.boton_cuenta{width: 4.5vw;
+height: 4vh;
+border-radius: 40px;
+margin-right: 25px;
+margin-top:8%;
+margin-bottom: 10%;
+background-color: darkcyan;
+font-size: 17px;}
+
+
+
+/*Sobre nosotros*/
+
+
+.sobre_nosotros{background-color:rgba(233, 231, 224, 0.705);
+    flex-direction: column;
+    margin: 10% 10%;
+    border-radius: 5%;
+}
+.titulo_conocenos{text-align:center ;
+font-size: 50px;
+margin-bottom: 5%;
+margin-top: 10%;}
+.introduccion{flex-direction: column;
+  width: 70%;
+}
+
+.introduccion p{font-size: 28px;
+text-align: justify;
+line-height: 3rem;
+flex-direction: column;
+  width: 70%;
+margin-left: 10%;}
+
+.cita_motivacional{justify-self: center;
+align-self: center;
+font-style: italic;
+font-size: 40px;
+width: 40%;
+margin-left: 15%;}
+.about_company{flex-direction: column;
+justify-content: center;
+background-image: url(../img/pexels-fauxels-3183198.jpg);}
+
+.about_company .volver{justify-self: center;
+margin-left: 10%;}
+.about_me{
+width: 20vw;
+height: 45vh;
+justify-self: right;
+margin-left: 10%;
+}
+
+.mision_y_vision{flex-direction: column;}
+.mision_y_vision h2{margin-left: 7%;
+font-size: 38px;
+margin-bottom: 3rem;
+margin-top: 2rem;}
+.mision_y_vision p{font-size: 28px;
+    line-height: 3rem;
+    width: 70%;
+   text-align: justify;
+   margin-left: 7%;
+   }
+
+
+.valores{padding-top:2%;
+padding-bottom: 2%}
+.valores h2{
+    font-size: 38px;
+    margin-left: 7%;
+}
+.valores p {
+    font-size: 28px;
+margin-bottom: 1.5rem ;
+margin-top: 1.5rem;
+margin-left: 7%;}
+.valores ul li{
+    font-size: 25px;
+list-style: none;
+gap:1rem;
+line-height: 3rem;
+margin-left: 7%;}
+
+
+.titulo_equipo{
+    font-size: 38px;
+text-align:  center;
+padding-top: 5%;
+padding-bottom: 5%;}
+
+.equipo{flex-direction: column;
+width: 40vw;
+justify-content: space-around;}
+
+.equipo img{width: 65%;
+border-radius: 50%;
+margin-bottom:10%;
+margin-left: 10%;}
+.equipo p{width: 55%;
+    font-size: 25px;
+text-align: justify;
+margin-left: 12%;
+margin-bottom: 15%;}
+
+.container_equipo{background-color: rgba(153, 201, 201, 0.664);}
+
+
+/*Preguntas Frecuentes  */
+
+.preguntas{flex-direction: column;
+   
+    background-image: url(../img/pexels-fauxels-3183198.jpg);
+}
+.preguntas a {margin-bottom: 10%;}
+
+.preguntas h1{
+font-size: 40px;
+align-self: center;
+margin-top: 5rem;
+margin-bottom: 5rem;}
+
+.preguntas_frecuentes{
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.preguntas_frecuentes h2 {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;}
+
+    .preguntas_frecuentes p {
+        font-size: 28px;
+        line-height: 1.5;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    width: 55%;}
+
+
+/*TIPOS DE ASESORIAS*/
+
+.titulo_todas_las_asesorias{text-align: center;
+margin-top: 8rem;}
+.todas_las_asesorias{
+    margin-top: 2%;
+}
+
+/* sidebar*/ 
+
+aside{ 
+width:12vw;
+
+justify-content: left;}
+.side-bar{flex-direction: column;
+    margin-top: 15%;
+    }
+
+.side-bar li{list-style: none;}    
+
+
+/* grid plantilla de asesorias*/
+.grid{
+background-color: rgba(153, 201, 201, 0.664);
+width: 75%;
+border-radius: 5%;
+justify-content: center;
+margin-left: 8%;
+
+}
+
+
+.box_categorias{
+margin-top: 8%;
+margin-left: 6%;
+margin-right: 6%;
+width: 90%;
+padding-bottom: 4.5vh;
+}
+
+
+.box_categorias img{transition: height 2s;
+transition: 2s;}
+.box_categorias img:hover{height: 200px;
+width: 300px;}
+
+
+.box_categorias button{align-self: center;}
+
+.box_categorias button:hover{background-color: rgb(140, 226, 219);}
+
+.todas_las_categorias {margin-top: 8%;
+justify-content: center;}
+
+
+
+
+/* TABLET*/
+@media screen and (min-width:481px) and (max-width:1024px){
+
+    /* modificaciones generales navbar */ 
+    .barra_lateral{display: none;}
+    .header-right{display:none;}
+    .header img{width: 20vw;}
+    .header .burger{ display: flex;
+        margin-top: 20px;
+    
+}
+
+/* index */
+.container_categorias{flex-direction: column;
+align-items: center;}
+.imagenes_categorias {width: 55vw;}
+.grid-container{width:75vw;}
+.accordion-body img{width: vw}
+.carousel-item img {width: 55vw;}
+
+
+/* seccion de subscricion a boletin*/ 
+.suscribe_boletin{margin-top: 10%;
+    margin-bottom: 10%;
+justify-content: center;
+flex-direction: column;
+align-items: center;}
+.suscribe_boletin h2{font-size: 20px;}
+    .suscribe_boletin input{
+    font-size: 18px;
+width: 40vw;
+height: 2.5vh;
+margin-left: 1.5rem;
+margin-top: 3%;
+}
+.suscribe_boletin button{width: 4.5rem;
+font-size: 20px;
+margin-top: 5%;}
+
+
+}
+
+
+
+/* MOBILE*/
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+
+    /* modificaciones generales navbar */ 
+    .header-right{display:none;}
+    
+    /* index */
+    .header img{width: 25vw;}
+  
+    .box_categorias button{width: 40%;}
+
+    /* seccion de subscricion a boletin*/ 
+    .suscribe_boletin{margin-top: 10%;
+        margin-bottom: 10%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;}
+    .suscribe_boletin h2{font-size: 20px;}
+        .suscribe_boletin input{
+        font-size: 18px;
+    width: 40vw;
+    height: 2.5vh;
+    margin-left: 1.5rem;
+    margin-top: 3%;
+    }
+    .suscribe_boletin button{width: 4.5rem;
+    font-size: 20px;
+    margin-top: 5%;}
+    
+    
+
+
+}
+
+

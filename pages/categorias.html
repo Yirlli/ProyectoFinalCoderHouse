@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Categorías</title>
+
+</head>
+<body>
+    <header class="barra_navegacion">
+        <section class="header d-flex">
+            <img src="../img/Logotipo.png" alt="">
+            <div class="dropdown burger">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-view-list" viewBox="0 0 16 16">
+                        <path d="M3 4.5h10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1H3zM1 2a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 2zm0 12a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 14z"/>
+                      </svg>
+              </a>
+              
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./pages/categorias.html">Inicia Sesión</a></li>
+                <li><a class="dropdown-item" href="./pages/categorias.html">Crear Cuenta</a></li>
+                <li><a class="dropdown-item" href="./pages/categorias.html">Home</a></li>
+                <li><a class="dropdown-item" href="./pages/categorias.html">Contacto</a></li>
+              </ul>
+            </div>
+            
+
+            
+                
+            <div class="header-right">
+                <nav  >
+                    <!-- <button id="cerrar" class="cerrar"><i class="bi bi-x-square"></i></button>-->
+                    <ul class="nav-bar d-flex"> 
+                        <li class="menu"> <a href="./iniciaSesion.html">Inicia Sesión</a></li>
+                        <li class="menu"><a href="./crearCuenta.html">Crear Cuenta</a></li>
+                        
+                        <select name="pais" id="pais">
+                            <option value="Chile">Chile</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Venezuela">Venezuela</option>
+                            <option value="USA">USA</option>
+                            <option value="Eruopa">Europa</option>
+                        </select>
+                    </ul>
+
+                </nav>
+                <nav>
+                    <ul class="nav-bar d-flex">
+                        <li class="menu"> <a href="../index.html">Home</a></li>
+                        <li class="menu"><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>  
+        
+    
+    
+    <main>   
+        <h1 class="titulo_todas_las_asesorias">Encuentra la asesoría que necesites</h1>
+        <section class="todas_las_asesorias flex">
+            <section class="flex barra_lateral">
+                <aside >
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                          Categorías
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Todas las asesorías</a>
+                        <a href="#" class="list-group-item list-group-item-action">Gestión de proyecto</a>
+                        <a href="#" class="list-group-item list-group-item-action">Ventas e inmobiliaria</a>
+                        <a href="#" class="list-group-item list-group-item-action">Salesforce</a>
+                        <a href="#" class="list-group-item list-group-item-action">Procesos IT</a>
+                      </div>
+                  
+                </aside>
+            </section>
+        
+            <section class="grid">
+              <div class="container-md text-center box_categorias ">
+                <div class="row flex gy-5" >
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/projectm.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Project Manager</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card"style=" height: 32rem; " >
+                      <img src="../img/scrumboard.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Scrum Master</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card"style="height: 32rem; ">
+                      <img src="../img/PO.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Product Owner</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/desarrollo-web-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Desarrollo Web</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/Devops.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">DevOps</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/KAM.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">KAM</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/salsforce.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Salesforce</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/analisis.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Analisis de datos</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/soporte.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Soporte IT</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/negociacion.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Ventas e inmobiliarias</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3 ">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/aws.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Arquitectura AWS</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-xl-3 ">
+                    <div class="card" style=" height: 32rem; ">
+                      <img src="../img/ui.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Diseño UX y UI</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>  
+                    
+    
+            </section>
+
+
+    </main>
+    <div class="flex todas_las_categorias">
+        <a href="../index.html" class="volver">Volver a página de Inicio</a>
+    </div>
+    <div class="suscribe_boletin flex">
+        <h2>Agenda una llamada de consulta gratuita para recibir más información</h2>
+        <input type="email" placeholder="Ingresa tu email...">
+        <Button type="submit">Enviar</Button>
+    </div>
+    <!--<script src="../Js/main.js"></script>-->
+   
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+  
+    </body>
+</html>

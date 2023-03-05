@@ -586,10 +586,12 @@ margin-top: 5%;}
      height: 30vh;}
      .titulo_principal h1{margin-top: 6.5rem;
     font-size: 40px;}
-     .titulo_principal h4{display:none;
+     .titulo_principal h4{display:none;}
      .sombra_titulo {width: 85%;
       padding: 1rem;}
      .box_categorias button{width: 40%;}
+     .container_categorias{flex-direction: column;
+    align-items: center;}
  
      /* seccion de subscricion a boletin*/ 
      .suscribe_boletin{margin-top: 10%;
@@ -609,7 +611,7 @@ margin-top: 5%;}
      font-size: 20px;
      margin-top: 5%;}
     
-}
+
      /* footer*/
 .redes{margin-left: 0.25rem;}
 .redes img{

@@ -55,8 +55,6 @@ font-size: 20px;}
 
 .header img{width: 15vw;}
 
-
-    
     /* PAGINA PRINCIPAL*/
     
 .index{background-image: url(../img/pexels-fauxels-3183198.jpg);
@@ -265,7 +263,7 @@ background-size: cover;
 .fondo_apertura{background-color: rgb(153, 201, 201);
 width: 65vw;
 border-radius: 40%;
-margin-top: 3%;
+margin-top: 6%;
 margin-bottom: 8%;
 }
 .apertura{
@@ -341,7 +339,7 @@ background-size:cover;}
 margin-left: 10%;}
 .about_me{
 width: 20vw;
-height: 45vh;
+
 justify-self: right;
 margin-left: 5%;
 }
@@ -404,7 +402,7 @@ padding-bottom: 5%;}
     margin-bottom: 15%;
     align-self: center}
     
-.equipo img{width: 15vw;
+.equipo img{width: 13vw;
 border-radius: 50%;
 margin-bottom:10%;
 margin-left: 10%;
@@ -429,7 +427,7 @@ background-size: cover;}
 
 .fondo_preguntas{
     margin: 7rem;
-    background-color: rgba(113, 167, 167, 0.604);
+    background-color: rgba(131, 191, 191, 0.786);
 border-radius: 10%;}
 
 .preguntas h1{
@@ -532,19 +530,15 @@ margin-left: 25%;}
         margin-top: 2rem;
         height: 7vh;}
     
-
-
 /* index */
 
 .boton_acceder{width: 13vw;}
-
 
 .container_categorias{flex-direction: column;
 align-items: center;}
 .tipos_de_categorias{padding: 2rem;}
 .imagenes_categorias {width: 35vw;}
 
-.grid-container{}
 .accordion-body img{width: vw}
 .carousel-item img {width: 55vw;}
 
@@ -566,8 +560,44 @@ margin-top: 3%;
 .suscribe_boletin button{width: 4.5rem;
 font-size: 20px;
 margin-top: 5%;}
+/* sobre nosotros */
+.about_me img {width:5vw;}
+
 
 }
+
+
+
+@media screen and (max-width: 768px){
+/* inicio de sesion*/
+.fondo_inicio_sesion {margin-top: 3rem;
+        width: 50vw;}
+.inicio_de_sesion .logo_inicio{width: 30vw;
+            margin-left: 4rem;}
+.fondo_inicio_sesion h1{font-size: 30px;}
+ .formulario_inicio_sesion input{width: 30vw;}
+ .boton_cuenta{width: 19vw;}
+ .inicio_de_sesion .olvide_contraseña {margin-left: 4rem;}
+ .boton_cuenta_nueva {width: 20vw;}
+
+ /* apertura cuenta */
+ .fondo_apertura{width: 75vw;}
+ .form-control {width: 45vw;}
+ .form-check-label{width: 40vw;}
+ form .boton_cuenta {width: 14vw;}
+ .logo_crear_cuenta{width: 25vw;margin-top: 3rem;}
+
+
+ /* sobre nosotros */
+.about_me{width:30vw}
+
+
+/* preguntas frecuentes */
+.fondo_preguntas {width: 75vw;}
+
+}
+    
+
 
 
 
@@ -632,8 +662,34 @@ width: 1vw;}
 .todas_las_categorias  {margin-top: 8%;
     justify-content: center;
     margin-left: 2%;}
-   
+     /* inicio de sesion*/
+     
+     .inicio_de_sesion .logo_inicio{width: 30vw;
+    margin-left: 15rem;}
+    .fondo_inicio_sesion h1{font-size: 30px;}
+    .formulario_inicio_sesion input{width: 50vw;}
+    .boton_cuenta{width: 19vw;}
+    .inicio_de_sesion .olvide_contraseña {margin-left: 4rem;}
+    .boton_cuenta_nueva {width: 28vw;}
 
+ /* apertura cuenta */
+ .fondo_apertura{width: 75vw;}
+ .form-control {width: 55vw;}
+ .form-check-label{width: 40vw;}
+ form .boton_cuenta {width: 14vw;}
+ .logo_crear_cuenta{width: 25vw;margin-top: 3rem;}
+
+/* sobre nosotros */
+.about_me {height: 25vh;
+margin-top: 5rem;}
+.container_equipo{flex-direction: column;}
+.equipo{width: 80vw;}
+.equipo img {width: 25vw;
+margin-left: 1rem;}
+.cita_motivacional{font-size: 20px;}
+
+/* preguntas frecuentes */
+.fondo_preguntas {margin-right: 3rem;}
 }
 @media screen and  (max-width: 480px) {
 
@@ -676,7 +732,7 @@ padding: 1rem;}
     }
     .suscribe_boletin button{width: 4.5rem;
     font-size: 20px;
-    margin-top: 5%;}}
+    margin-top: 5%;}
 
 .accordion{width: 80%;
     margin-left: 10%}
@@ -700,3 +756,37 @@ padding: 1rem;}
      .footer_remove{display: none;
      width: 1vw;}
      
+     /* inicio de sesion*/
+     .fondo_inicio_sesion{margin-top: 5rem;
+        width: 70vw;}
+     .inicio_de_sesion .logo_inicio{width: 30vw;
+    margin-left: 5rem;}
+    .fondo_inicio_sesion h1{font-size: 30px;}
+    .formulario_inicio_sesion input{width: 50vw;}
+    .boton_cuenta{width: 19vw;}
+    .inicio_de_sesion .olvide_contraseña {margin-left: 2.2rem;}
+    .boton_cuenta_nueva {width: 28vw;}
+
+ /* apertura cuenta */
+ .fondo_apertura{width: 80vw;}
+ .form-control {width: 70vw;}
+ .form-check-label{width: 40vw;}
+ form .boton_cuenta {width: 14vw;}
+ .logo_crear_cuenta{width: 30vw;margin-top: 3rem;}
+.apertura h1 {font-size: 30px;}
+.form-label{font-size: 18px;
+    }
+.form-select{width: 40vw;}
+
+}
+    @media screen and  (max-width: 320px){
+        /* inicio de sesion*/
+        .fondo_inicio_sesion{margin-top: 5rem;
+           width: 80vw;}
+        .inicio_de_sesion .logo_inicio{width: 30vw;
+       margin-left: 4rem;}
+       .fondo_inicio_sesion h1{font-size: 25px;}
+       .formulario_inicio_sesion input{width: 75vw;}
+       .boton_cuenta{width: 28vw;}
+       .inicio_de_sesion .olvide_contraseña {margin-left: 4rem;}
+       .boton_cuenta_nueva {width: 40vw;}}

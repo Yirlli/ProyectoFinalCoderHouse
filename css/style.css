@@ -36,7 +36,8 @@ padding: 1rem;}
         gap: 6rem;
       
     }
-    .nav_superior{padding-bottom: 1.3rem;}
+    .nav_superior{padding-bottom: 1.3rem;
+    padding-top: 1rem;}
     .header-right{justify-content: end;}
 .nav-bar a{font-size: 20px;}
 
@@ -53,12 +54,7 @@ font-size: 20px;}
 
 
 .header img{width: 15vw;}
-aside{display: flex;}
 
-.list-group .active{background-color: rgba(39, 119, 119, 0.562);
-border-color: black;}
-    .list-group a:hover{background-color: rgb(18, 143, 165);
-   }
 
     
     /* PAGINA PRINCIPAL*/
@@ -199,30 +195,25 @@ border: none;}
     
     /* PIE DE PAGINA */
     
-    .container_pie_de_pagina{background-color: rgba(39, 119, 119, 0.562);
-    
+    .container_pie_de_pagina{background-color: rgba(39, 119, 119, 0.562); 
 }
     .pie_de_pagina{
         justify-content: center;
-    
-        width: 30%;
+    width: 30%;
         gap: 3rem;
     flex-direction: column;}
     .footer{list-style: none;
         width: 18vw;
   }
-
+  
   .logo_footer{width: 8vw;
-
-    margin-top: 3rem;
+margin-top: 3rem;
 }
-.logo{}
   .redes{margin-right: 1rem;
 margin-left: 3.5rem;
-
+list-style: none;
 }
-    
-
+ 
     /*Pagina Inicion de Sesion*/
 
     .inicio_de_sesion{
@@ -478,16 +469,20 @@ margin-top: 8rem;}
 /* sidebar*/ 
 
 aside{ 
-width:12vw;
-
+width:14vw;
 justify-content: left;}
 .side-bar{flex-direction: column;
     margin-top: 15%;
     }
-
+aside a {width: 18vw;}
 .side-bar li{list-style: none;}    
 
+aside{display: flex;}
 
+.list-group .active{background-color: rgba(39, 119, 119, 0.562);
+border-color: black;}
+    .list-group a:hover{background-color: rgb(18, 143, 165);
+   }
 /* grid plantilla de asesorias*/
 .grid{
 background-color: rgba(153, 201, 201, 0.664);
@@ -516,23 +511,28 @@ width: 300px;}
 
 .box_categorias button:hover{background-color: rgb(140, 226, 219);}
 
-.todas_las_categorias {margin-top: 8%;
-justify-content: center;}
+.todas_las_categorias  {margin-top: 8%;
+justify-content: center;
+margin-left: 25%;}
+
+.todas_las_categorias h2{}
 
 
 
 
 /* TABLET*/
-@media screen and (max-width:1023px){
+@media screen and(max-width:1023px){
 
     /* modificaciones generales navbar */ 
-    .barra_lateral{display: none;}
-    /*.header-right{display:none;}*/
-    .header img{width: 20vw;}
-   /* .header .burger{ display: flex;
-        margin-top: 20px;
     
-}*/
+    .header-right{display:none;}
+    .header img{width: 24vw;
+    margin-left: 1rem;}
+   .header .burger{ display: flex;
+        margin-top: 2rem;
+        height: 7vh;}
+    
+
 
 /* index */
 
@@ -578,16 +578,17 @@ margin-top: 5%;}
      .header-right{display:none;}
      .header .burger{ display: flex;
          margin-top: 20px;}
-     
+        
      /* index */
      .header img{width: 25vw;}
-     .boton_acceder{width: 18    vw;}
-     .imagenes_categorias {width: 32vw;
-     height: 17vh;}
-     .titulo_principal h1{font-size: 30px;
-         margin-top: 6%;
-    }
-     .titulo_principal h4{}
+     .boton_acceder{width: 25vw;}
+     .imagenes_categorias {width: 45vw;
+     height: 30vh;}
+     .titulo_principal h1{margin-top: 6.5rem;
+    font-size: 40px;}
+     .titulo_principal h4{display:none;
+     .sombra_titulo {width: 85%;
+      padding: 1rem;}
      .box_categorias button{width: 40%;}
  
      /* seccion de subscricion a boletin*/ 
@@ -609,28 +610,51 @@ margin-top: 5%;}
      margin-top: 5%;}
     
 }
+     /* footer*/
+.redes{margin-left: 0.25rem;}
+.redes img{
+width: 10vw;
+padding-bottom: 1.2rem;}
+.logo_footer{width: 30vw;
+margin-top: 1rem;}
+.pie_de_pagina{gap:1.5rem;
+width:40vw;}
+.mobile{width: 20vw;}
+.footer{width: auto;}
+.footer_remove{display: none;
+width: 1vw;}
 
+
+/* pagina categorias */
+.barra_lateral{display: none;}
+.todas_las_categorias  {margin-top: 8%;
+    justify-content: center;
+    margin-left: 2%;}
    
 
-
+}
 @media screen and  (max-width: 480px) {
 
     /* modificaciones generales navbar */ 
     .header-right{display:none;}
     .header .burger{ display: flex;
-        margin-top: 20px;
-    
+        margin-top: 20px;   
 }
     
     /* index */
     .index{padding-bottom: 18%;}
     .header img{width: 25vw;}
-    .boton_acceder{width: 25vw;}
+    .boton_acceder{width: 35vw;}
     .imagenes_categorias {width: 32vw;
     height: 17vh;}
     .titulo_principal h1{font-size: 30px;
-        margin-top: 4.5rem;
+        margin-top:6%;
+        color:antiquewhite
    }
+ 
+.sombra_titulo {background-color: rgba(0, 0, 0, 0.714);
+  width: 70%;
+padding: 1rem;}
     .titulo_principal h4{display:none}
     .box_categorias button{width: 40%;}
     .imagenes_categorias {width: 45vw;}
@@ -643,8 +667,8 @@ margin-top: 5%;}
     .suscribe_boletin h2{font-size: 20px;}
         .suscribe_boletin input{
         font-size: 18px;
-    width: 40vw;
-    height: 2.5vh;
+    width: 50vw;
+    
     margin-left: 1.5rem;
     margin-top: 3%;
     }
@@ -654,3 +678,23 @@ margin-top: 5%;}
 
 .accordion{width: 80%;
     margin-left: 10%}
+    .carousel-item img {width: 80vw;
+    margin-left: 1.2rem;}
+/* pagina de categorias */
+
+
+     /* footer*/
+     .redes{margin-left: 0.25rem;}
+     .redes img{
+     width: 8vw;
+     padding-bottom: 1.2rem;}
+     .logo_footer{width: 30vw;
+     margin-top: 1rem;}
+     .pie_de_pagina{gap:1.5rem;
+     width:40vw;}
+     .mobile{width: 20vw;}
+     
+     .footer{width: auto;}
+     .footer_remove{display: none;
+     width: 1vw;}
+     

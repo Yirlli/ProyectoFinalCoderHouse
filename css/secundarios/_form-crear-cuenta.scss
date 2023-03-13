@@ -1,18 +1,19 @@
 .crear_cuenta {
-    background-image: $fondoImagen;
+    background-image: url(../../img/pexels-fauxels-3183198.jpg);
     background-size: cover;
 
     .fondo_apertura{
     background-color: $colorSecundario;
-    width: 40vw;
-    border-radius: 30%;
+    width: 30vw;
+    border-radius: 40%;
     margin-top: 6%;
     margin-bottom: 8%;
+    box-shadow: $colorSombraContainer;
 
         .logo_crear_cuenta{
-        width: 20vw;
+        width: 16vw;
         margin-top: 3vw;
-        margin-left: 11vw;
+        margin-left: 8vw;
             }
 
     .apertura{
@@ -34,7 +35,7 @@
         }
 
         .form-control, .form-select {
-            width: 30vw;}
+            width: 15vw;}
     }
 
 

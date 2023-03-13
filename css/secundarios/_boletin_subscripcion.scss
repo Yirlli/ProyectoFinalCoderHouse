@@ -1,26 +1,35 @@
 .suscribe_boletin{
+    background-color: $colorContainer;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    box-shadow: $colorSombraContainer;
     margin-top: 10%;
     margin-bottom: 10%;
     flex-direction: column;
     align-items: center;
 
-    .suscribe_boletin h2{
+    .h2{
         font-size: 24px;
         text-align: center;
-        width: 80vw;}
+        width: 80vw;
+        margin-bottom: 10%;}
 
-    .suscribe_boletin input{
+    .form-control{
         font-size: 25px;
-        width: 25vw;
+        width: 20vw;
         margin-left: 1.5rem;
-        margin-top: 1.5rem;
+        margin-top: 3rem;
         margin-bottom: 1.5rem
         }
-    .suscribe_boletin button{
-        width: 6rem;
-        font-size: 20px;
+    button{
+        width: 7rem;
+        background-color: $colorBoton;
+        border: none;
+        border-radius: 10%;
+        font-size: 25px;
+        height:3rem ;
         
-        &hover{
+        &:hover{
             background-color: $colorSecundario ;
             width: 8rem;
             height: 4rem;

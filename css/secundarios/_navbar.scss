@@ -1,33 +1,51 @@
 .barra_navegacion{
     background-color: $mainColor;
+    box-shadow: $colorSombraContainer;
 
     .header {
-    padding: 1rem;
+    
 
-        img {width: 15vw;}
+        img {align-self: center;
+            width: 16vw;
+    margin-left: 2rem;}
 
         .burger{
             display: none;
             justify-content: right;}
          
-            .header-right{justify-content: end; 
-
+            .header-right{
+                padding-right: 4rem;
+                
                 .nav_superior{
-                    padding-bottom: 1.3rem;
-                    padding-top: 1rem;}
-                .nav-bar{gap: 6rem;
-                    #pais{
-                         width: 8rem;
-                        font-size: 20px;
+                    
+                    padding-top: 4rem;
+
                     .menu {
                         list-style: none;
                         font-weight: bold;
-                        .nav-bar a{
-                            font-size: 20px;
-                            }
+                        font-size: 30px;
+                       }
+
+                }
+                .nav_inferior {
+                    padding-bottom: 1.3rem;
+                    padding-top: 2rem;
+
+                    .menu {
+                        list-style: none;
+                        font-weight: bold;
+                        font-size: 30px;
+                       }
+
+                }
+                .nav-bar{gap: 6rem;
+                    #pais{
+                         width: 10rem;
+                         font-size: 30px;
+
                         }
                     }
                 }
             }
         }
-}
+

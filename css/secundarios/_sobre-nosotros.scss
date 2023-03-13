@@ -2,7 +2,7 @@
    
 
     .sobre_nosotros{
-        background-color: $colorTerceario;
+        
         
         margin: 10% 10%;
         border-radius: 5%;
@@ -95,6 +95,7 @@
                 background-color: $colorSecundario;
                 flex-wrap: wrap;
                 padding-top: 3rem;
+                box-shadow: $colorSombraContainer;
                 
                 .equipo{
                     width: 50%;

@@ -1,5 +1,5 @@
 .inicio_de_sesion{
-    background-image: $fondoImagen;
+    background-image: url(../../img/pexels-fauxels-3183198.jpg);
     background-size: cover;
 
     .fondo_inicio_sesion{
@@ -7,12 +7,14 @@
         margin-bottom: 15%;
         border-radius: 40%;
         margin-top: 5%;
-        width: 40vw;
+        width: 30vw;
+        box-shadow: $colorSombraContainer;
 
         .logo_inicio{
             padding-top: 2rem;
-            width: 20vw;
-            margin-left: 6.5rem;
+            width: 16vw;
+            margin-left: 8rem;
+            
         }
 
         .formulario_inicio_sesion h1{
@@ -25,11 +27,14 @@
         }
 
         .formulario_inicio_sesion input {
-            width: 60%;
+            width: 16vw;
         }
         
         .olvide_contraseña{
             margin-left: 28%;
         }      
     }
+
+    .volver{
+        padding-bottom: 9%;}
 }

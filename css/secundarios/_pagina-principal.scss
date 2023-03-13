@@ -1,9 +1,10 @@
 .categorias_titulo {
+    padding-top: 12%;
     padding-bottom: 3rem;
 
-    .categorias_titulo h2{
+    h2{
     font-size: 40px;
-    margin-top: 6%;
+    
     }
 }
 
@@ -11,13 +12,15 @@
     background-color: $colorContainer;
     padding-top: 4%;
     padding-bottom: 2%;
+    box-shadow: $colorSombraContainer;
 
     .imagenes_categorias {
         height: 28vh;
         width: 15vw;
         border-radius: 15%;
+        box-shadow: $colorSombraImagenes;
 
-        &hover{
+        &:hover{
             width: 20vw;
             height: 30vh;
         }
@@ -43,7 +46,7 @@
             margin-left: 29%;
 
             .accordion-button{
-                width: 43.9vw;
+                
 
             }
 
@@ -66,8 +69,12 @@
             padding-bottom: 10%;
             font-size: 40px;    
         }
+        .carousel-inner{
+            padding-right: 33%;
+            }
             .carousel-item img {
-            width: 32vw;
+
+            width: 30vw;
     
         }    
     }  

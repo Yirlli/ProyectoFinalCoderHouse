@@ -20,37 +20,43 @@ a {
 
 .barra_navegacion {
   background-color: rgba(39, 119, 119, 0.562);
-}
-.barra_navegacion .header {
-  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .barra_navegacion .header img {
-  width: 15vw;
+  align-self: center;
+  width: 16vw;
+  margin-left: 2rem;
 }
 .barra_navegacion .header .burger {
   display: none;
   justify-content: right;
 }
 .barra_navegacion .header .header-right {
-  justify-content: end;
+  padding-right: 4rem;
 }
 .barra_navegacion .header .header-right .nav_superior {
+  padding-top: 4rem;
+}
+.barra_navegacion .header .header-right .nav_superior .menu {
+  list-style: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+.barra_navegacion .header .header-right .nav_inferior {
   padding-bottom: 1.3rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
+}
+.barra_navegacion .header .header-right .nav_inferior .menu {
+  list-style: none;
+  font-weight: bold;
+  font-size: 30px;
 }
 .barra_navegacion .header .header-right .nav-bar {
   gap: 6rem;
 }
 .barra_navegacion .header .header-right .nav-bar #pais {
-  width: 8rem;
-  font-size: 20px;
-}
-.barra_navegacion .header .header-right .nav-bar #pais .menu {
-  list-style: none;
-  font-weight: bold;
-}
-.barra_navegacion .header .header-right .nav-bar #pais .menu .nav-bar a {
-  font-size: 20px;
+  width: 10rem;
+  font-size: 30px;
 }
 
 .index {
@@ -59,56 +65,60 @@ a {
   padding-bottom: 10%;
 }
 .index .titulo_principal {
-  padding-top: 8%;
+  margin-top: 20%;
 }
-.index .titulo_principal .sombra_titulo {
+.index .titulo_principal .sombra_titulo1 {
   background-color: rgba(0, 0, 0, 0.162);
   text-align: center;
-  width: 62%;
+  width: 70%;
   border-radius: 19%;
+  font-size: 40px;
+  font-weight: bold;
 }
-.index .titulo_principal .titulo_principal h1 {
-  margin-top: 5rem;
-  margin-bottom: 6%;
-  font-size: 50px;
-}
-.index .titulo_principal .titulo_principal h4 {
+.index .titulo_principal .sombra_titulo2 {
+  background-color: rgba(0, 0, 0, 0.162);
+  text-align: center;
+  width: 58%;
+  border-radius: 19%;
+  font-size: 20px;
+  margin-top: 10%;
   font-size: 30px;
   margin-bottom: 2rem;
 }
 .index .titulo_principal .boton_acceder {
-  width: 10vw;
+  width: 13%;
   border-radius: 30%;
-  margin-top: 4rem;
-  margin-bottom: 5%;
+  margin-top: 3rem;
   background-color: darkcyan;
-  font-size: 20px;
+  font-size: 25px;
   border: none;
   font-weight: bold;
 }
-.index .titulo_principal .boton_accederhover {
+.index .titulo_principal .boton_acceder:hover {
   background-color: rgba(0, 139, 139, 0.563);
 }
 
 .categorias_titulo {
+  padding-top: 12%;
   padding-bottom: 3rem;
 }
-.categorias_titulo .categorias_titulo h2 {
+.categorias_titulo h2 {
   font-size: 40px;
-  margin-top: 6%;
 }
 
 .container_categorias {
   background-color: rgba(39, 119, 119, 0.096);
   padding-top: 4%;
   padding-bottom: 2%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .container_categorias .imagenes_categorias {
   height: 28vh;
   width: 15vw;
   border-radius: 15%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.container_categorias .imagenes_categoriashover {
+.container_categorias .imagenes_categorias:hover {
   width: 20vw;
   height: 30vh;
 }
@@ -127,9 +137,6 @@ a {
   width: 40%;
   margin-left: 29%;
 }
-.grid-container .accordion .accordion-button {
-  width: 43.9vw;
-}
 .grid-container .accordion-body img {
   width: 20vw;
   border-radius: 30%;
@@ -145,8 +152,11 @@ a {
   padding-bottom: 10%;
   font-size: 40px;
 }
+.grid-container .carousel-inner {
+  padding-right: 33%;
+}
 .grid-container .carousel-item img {
-  width: 32vw;
+  width: 30vw;
 }
 
 .inicio_de_sesion {
@@ -158,12 +168,13 @@ a {
   margin-bottom: 15%;
   border-radius: 40%;
   margin-top: 5%;
-  width: 40vw;
+  width: 30vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
   padding-top: 2rem;
-  width: 20vw;
-  margin-left: 6.5rem;
+  width: 16vw;
+  margin-left: 8rem;
 }
 .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
   font-size: 40px;
@@ -174,10 +185,13 @@ a {
   font-size: 20px;
 }
 .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion input {
-  width: 60%;
+  width: 16vw;
 }
 .inicio_de_sesion .fondo_inicio_sesion .olvide_contraseña {
   margin-left: 28%;
+}
+.inicio_de_sesion .volver {
+  padding-bottom: 9%;
 }
 
 .crear_cuenta {
@@ -186,15 +200,16 @@ a {
 }
 .crear_cuenta .fondo_apertura {
   background-color: rgba(153, 201, 201, 0.664);
-  width: 40vw;
-  border-radius: 30%;
+  width: 30vw;
+  border-radius: 40%;
   margin-top: 6%;
   margin-bottom: 8%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .crear_cuenta .fondo_apertura .logo_crear_cuenta {
-  width: 20vw;
+  width: 16vw;
   margin-top: 3vw;
-  margin-left: 11vw;
+  margin-left: 8vw;
 }
 .crear_cuenta .fondo_apertura .apertura {
   gap: 1rem;
@@ -214,7 +229,7 @@ a {
   font-size: 25px;
 }
 .crear_cuenta .fondo_apertura .apertura .form-control, .crear_cuenta .fondo_apertura .apertura .form-select {
-  width: 30vw;
+  width: 15vw;
 }
 
 .titulo_todas_las_asesorias {
@@ -225,12 +240,8 @@ a {
 .todas_las_asesorias {
   margin-top: 2%;
 }
-.todas_las_asesorias aside {
-  width: 14vw;
-  justify-content: left;
-}
-.todas_las_asesorias aside aside a {
-  width: 18vw;
+.todas_las_asesorias .barra_lateral a {
+  width: 12vw;
 }
 .todas_las_asesorias .grid {
   background-color: rgba(153, 201, 201, 0.664);
@@ -238,6 +249,7 @@ a {
   border-radius: 5%;
   justify-content: center;
   margin-left: 8%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .todas_las_asesorias .grid .box_categorias {
   margin-top: 8%;
@@ -250,7 +262,7 @@ a {
   transition: height 2s;
   transition: 2s;
 }
-.todas_las_asesorias .grid .box_categorias .card imghover {
+.todas_las_asesorias .grid .box_categorias .card img:hover {
   height: 200px;
   width: 300px;
 }
@@ -262,7 +274,6 @@ a {
 }
 
 .about_company .sobre_nosotros {
-  background-color: rgba(158, 157, 154, 0.387);
   margin: 10% 10%;
   border-radius: 5%;
 }
@@ -340,6 +351,7 @@ a {
   background-color: rgba(153, 201, 201, 0.664);
   flex-wrap: wrap;
   padding-top: 3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .about_company .sobre_nosotros .container_equipo .equipo {
   width: 50%;
@@ -386,7 +398,7 @@ a {
 }
 
 .boton_cuenta_nueva {
-  width: 10vw;
+  width: 8vw;
   border-radius: 40px;
   margin-top: 20px;
   margin-bottom: 10%;
@@ -394,28 +406,37 @@ a {
 }
 
 .suscribe_boletin {
+  background-color: rgba(39, 119, 119, 0.096);
+  padding-top: 4%;
+  padding-bottom: 4%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   margin-top: 10%;
   margin-bottom: 10%;
   flex-direction: column;
   align-items: center;
 }
-.suscribe_boletin .suscribe_boletin h2 {
+.suscribe_boletin .h2 {
   font-size: 24px;
   text-align: center;
   width: 80vw;
+  margin-bottom: 10%;
 }
-.suscribe_boletin .suscribe_boletin input {
+.suscribe_boletin .form-control {
   font-size: 25px;
-  width: 25vw;
+  width: 20vw;
   margin-left: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
-.suscribe_boletin .suscribe_boletin button {
-  width: 6rem;
-  font-size: 20px;
+.suscribe_boletin button {
+  width: 7rem;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 10%;
+  font-size: 25px;
+  height: 3rem;
 }
-.suscribe_boletin .suscribe_boletin buttonhover {
+.suscribe_boletin button:hover {
   background-color: rgba(153, 201, 201, 0.664);
   width: 8rem;
   height: 4rem;
@@ -425,6 +446,7 @@ a {
 
 .container_pie_de_pagina {
   background-color: rgba(39, 119, 119, 0.562);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .container_pie_de_pagina .pie_de_pagina {
   justify-content: center;
@@ -443,4 +465,373 @@ a {
   margin-right: 1rem;
   margin-left: 3.5rem;
   list-style: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .header img {
+    width: 24vw;
+    margin-left: 1rem;
+  }
+  .header .burger {
+    display: flex;
+    margin-top: 2rem;
+    height: 7vh;
+  }
+  .header-right {
+    display: none;
+  }
+  .boton_acceder {
+    width: 13vw;
+  }
+  .container_categorias {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_categorias .tipos_de_categorias {
+    padding: 2rem;
+  }
+  .container_categorias .tipos_de_categorias .imagenes_categorias {
+    width: 35vw;
+  }
+  .carousel-item img {
+    width: 55vw;
+  }
+  .suscribe_boletin {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .suscribe_boletin h2 {
+    font-size: 20px;
+  }
+  .suscribe_boletin input {
+    font-size: 18px;
+    width: 40vw;
+    height: 2.5vh;
+    margin-left: 1.5rem;
+    margin-top: 3%;
+  }
+  .suscribe_boletin button {
+    width: 4.5rem;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+  .about_me img {
+    width: 5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fondo_inicio_sesion {
+    margin-top: 3rem;
+    width: 50vw;
+  }
+  .fondo_inicio_sesion .logo_inicio {
+    width: 30vw;
+    margin-left: 4rem;
+  }
+  .fondo_inicio_sesion .formulario_inicio_sesion h1 {
+    font-size: 30px;
+  }
+  .fondo_inicio_sesion .formulario_inicio_sesion input {
+    width: 30vw;
+  }
+  .fondo_inicio_sesion .form-check .boton_cuenta {
+    width: 19vw;
+  }
+  .olvide_contraseña {
+    margin-left: 4rem;
+  }
+  .boton_cuenta_nueva {
+    width: 20vw;
+  }
+  .fondo_apertura {
+    width: 75vw;
+  }
+  .fondo_apertura .logo_crear_cuenta {
+    width: 25vw;
+    margin-top: 3rem;
+  }
+  .fondo_apertura .form-control {
+    width: 45vw;
+  }
+  .fondo_apertura .form-check-label {
+    width: 40vw;
+  }
+  .fondo_apertura .boton_cuenta {
+    width: 14vw;
+  }
+  .about_me {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header img {
+    width: 25vw;
+  }
+  .header .burger {
+    display: flex;
+  }
+  .header-right {
+    display: none;
+    margin-top: 20px;
+  }
+  .titulo_principal h1 {
+    margin-top: 6.5rem;
+    font-size: 40px;
+  }
+  .titulo_principal h4 {
+    display: none;
+  }
+  .sombra_titulo {
+    width: 85%;
+    padding: 1rem;
+  }
+  .boton_acceder {
+    width: 25vw;
+  }
+  .container_categorias {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_categorias .imagenes_categorias {
+    width: 45vw;
+    height: 30vh;
+  }
+  .suscribe_boletin {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .suscribe_boletin h2 {
+    font-size: 20px;
+  }
+  .suscribe_boletin input {
+    font-size: 18px;
+    width: 40vw;
+    height: 2.5vh;
+    margin-left: 1.5rem;
+    margin-top: 3%;
+  }
+  .suscribe_boletin button {
+    width: 4.5rem;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+  .pie_de_pagina {
+    gap: 1.5rem;
+    width: 40vw;
+  }
+  .pie_de_pagina .logo_footer {
+    width: 30vw;
+    margin-top: 1rem;
+  }
+  .pie_de_pagina .redes {
+    margin-left: 0.25rem;
+  }
+  .pie_de_pagina .redes img {
+    width: 10vw;
+    padding-bottom: 1.2rem;
+  }
+  .pie_de_pagina .mobile {
+    width: 20vw;
+  }
+  .pie_de_pagina .footer {
+    width: auto;
+  }
+  .pie_de_pagina .footer_remove {
+    display: none;
+    width: 1vw;
+  }
+  .barra_lateral {
+    display: none;
+  }
+  .todas_las_categorias {
+    margin-top: 8%;
+    justify-content: center;
+    margin-left: 2%;
+  }
+  .inicio_de_sesion .olvide_contraseña {
+    margin-left: 4rem;
+  }
+  .fondo_inicio_sesion .logo_inicio {
+    width: 30vw;
+    margin-left: 15rem;
+  }
+  .formulario_inicio_sesion h1 {
+    font-size: 30px;
+  }
+  .formulario_inicio_sesion input {
+    width: 50vw;
+  }
+  .formulario_inicio_sesion .form-check .boton_cuenta {
+    width: 19vw;
+  }
+  .formulario_inicio_sesion .boton_cuenta_nueva {
+    width: 28vw;
+  }
+  .fondo_apertura {
+    width: 75vw;
+  }
+  .fondo_apertura .logo_crear_cuenta {
+    width: 25vw;
+    margin-top: 3rem;
+  }
+  .fondo_apertura .form-control {
+    width: 55vw;
+  }
+  .fondo_apertura .form-check-label {
+    width: 40vw;
+  }
+  .fondo_apertura .apertura .boton_cuenta {
+    width: 14vw;
+  }
+  .cita_motivacional {
+    font-size: 20px;
+  }
+  .about_me {
+    height: 25vh;
+    margin-top: 5rem;
+  }
+  .container_equipo {
+    flex-direction: column;
+  }
+  .container_equipo .equipo {
+    width: 80vw;
+  }
+  .container_equipo .equipo img {
+    width: 25vw;
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-right {
+    display: none;
+  }
+  .header img {
+    width: 25vw;
+  }
+  .header .burger {
+    display: flex;
+  }
+  .index {
+    padding-bottom: 18%;
+  }
+  .index .titulo_principal h1 {
+    font-size: 30px;
+    margin-top: 6%;
+    color: antiquewhite;
+  }
+  .index .titulo_principal h4 {
+    display: none;
+  }
+  .index .titulo_principal .sombra_titulo {
+    background-color: rgba(0, 0, 0, 0.714);
+    width: 70%;
+    padding: 1rem;
+  }
+  .index .titulo_principal .boton_acceder {
+    width: 35vw;
+  }
+  .imagenes_categorias {
+    width: 45vw;
+  }
+  .accordion {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .carousel-item img {
+    width: 80vw;
+    margin-left: 1.2rem;
+  }
+  .suscribe_boletin {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .suscribe_boletin h2 {
+    font-size: 20px;
+  }
+  .suscribe_boletin input {
+    font-size: 18px;
+    width: 50vw;
+    margin-left: 1.5rem;
+    margin-top: 3%;
+  }
+  .suscribe_boletin button {
+    width: 4.5rem;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+  .pie_de_pagina {
+    gap: 1.5rem;
+    width: 40vw;
+  }
+  .pie_de_pagina .footer {
+    width: auto;
+  }
+  .pie_de_pagina .redes {
+    margin-left: 0.25rem;
+  }
+  .pie_de_pagina .redes img {
+    width: 8vw;
+    padding-bottom: 1.2rem;
+  }
+  .pie_de_pagina .mobile {
+    width: 20vw;
+  }
+  .pie_de_pagina .footer_remove {
+    display: none;
+    width: 1vw;
+  }
+  .inicio_de_sesion .logo_inicio {
+    width: 30vw;
+    margin-left: 5rem;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion {
+    margin-top: 5rem;
+    width: 70vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
+    font-size: 30px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion input {
+    width: 50vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .olvide_contraseña {
+    margin-left: 2.2rem;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .boton_cuenta_nueva {
+    width: 28vw;
+  }
+  .fondo_apertura {
+    width: 80vw;
+  }
+  .fondo_apertura .logo_crear_cuenta {
+    width: 30vw;
+    margin-top: 3rem;
+  }
+  .fondo_apertura .apertura h1 {
+    font-size: 30px;
+  }
+  .fondo_apertura .apertura .form-control {
+    width: 70vw;
+  }
+  .fondo_apertura .apertura .form-check-label {
+    width: 40vw;
+  }
+  .fondo_apertura .apertura .form-label {
+    font-size: 18px;
+  }
+  .fondo_apertura .apertura .form-select {
+    width: 40vw;
+  }
+  .fondo_apertura .apertura .boton_cuenta {
+    width: 14vw;
+  }
 }/*# sourceMappingURL=estilos.css.map */

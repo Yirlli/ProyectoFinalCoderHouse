@@ -7,20 +7,18 @@
     margin-top: 2%;
 
 
-    aside{ 
-    width:14vw;
-    justify-content: left;
-
-        aside a {
-            width: 18vw;
+    .barra_lateral a {
+         width: 12vw;
+            
         }
-    }
+    
     .grid{
         background-color: $colorSecundario;
         width: 75%;
         border-radius: 5%;
         justify-content: center;
         margin-left: 8%;
+        box-shadow: $colorSombraContainer;
 
         .box_categorias{
             margin-top: 8%;
@@ -28,21 +26,18 @@
             margin-right: 6%;
             width: 90%;
             padding-bottom: 4.5vh;
+            
 
             .card img{
                 transition: height 2s;
                 transition: 2s;
 
-                    &hover {
+                    &:hover {
                         height: 200px;
                         width: 300px;
                     }
+                }
             }
-            }
-
-
-
-
         }
     
 }

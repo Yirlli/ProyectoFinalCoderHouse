@@ -1,11 +1,11 @@
-
+/*
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-/* RESET*/
+/* RESET
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;} */
 
 
 /*Codigo reutilizable, que se usa en todas las páginas */    
@@ -23,7 +23,7 @@
     /*MENU DE NAVEGACION*/
     
  
-    .barra_navegacion{ /*height: 14.5vh;*/
+    /*.barra_navegacion{ 
     background-color:rgba(39, 119, 119, 0.562);}
     .header .burger{display: none;
         justify-content: right;
@@ -41,7 +41,7 @@ padding: 1rem;}
     .header-right{justify-content: end;}
 .nav-bar a{font-size: 20px;}
 
-    a{text-decoration: none;
+    /{text-decoration: none;
         color:black;
         
     }
@@ -51,17 +51,18 @@ padding: 1rem;}
     #pais{
     width: 8rem;
 font-size: 20px;}
+*/
 
 
-.header img{width: 15vw;}
+/*.header img{width: 15vw;}*/
 
     /* PAGINA PRINCIPAL*/
     
-.index{background-image: url(../img/pexels-fauxels-3183198.jpg);
+/*.index{background-image: url(../img/pexels-fauxels-3183198.jpg);
     background-size: cover;
     padding-bottom: 10%;
     
-/*height: 70vh;*/}
+}
     .titulo_principal{
     padding-top: 8%;}
     
@@ -91,9 +92,9 @@ border: none;
 font-weight: bold;}
 
 .boton_acceder:hover{background-color:rgba(0, 139, 139, 0.563) ;}
-    
+    */
     /* CATEGORIAS DE ASESORIAS*/
-    .categorias_titulo h2{
+   /* .categorias_titulo h2{
 font-size: 40px;
 margin-top: 6%;
 }
@@ -112,8 +113,8 @@ height: 30vh;}
         width: 15vw;
     border-radius: 15%;
     }
-
-    .clientes_resena{padding-left:6rem ;
+*/
+  /*  .clientes_resena{padding-left:6rem ;
     padding-right: 6rem;
 padding-bottom: 6rem;
 background-color:rgba(153, 201, 201, 0.664)}
@@ -123,7 +124,7 @@ background-color:rgba(153, 201, 201, 0.664)}
     justify-content: space-between;
    padding-right: 4rem;
 font-size: 35;}
-    /* NUESTROS CLIENTES */
+    /* NUESTROS CLIENTES *
 
     .grid-container{display: grid;
     grid-template-columns: 1fr ;
@@ -140,7 +141,7 @@ text-align: center;}
 margin-left: 29%};
 
 .accordion-button{width: 43.9vw;}
- .carousel-item img{ width: 32vw;} 
+ 
 
  .grid-acordion h3  {text-align: center;
     padding-top:4rem;
@@ -148,6 +149,7 @@ margin-left: 29%};
     font-size: 40px;
 }
 
+.carousel-item img{ width: 32vw;} 
  .grid-carusel h3  {text-align: center;
     padding-top:15%;
     padding-bottom: 10%;
@@ -160,7 +162,7 @@ margin-left: 29%};
  .ficha_clientes{margin-left: 20vw;}
 
 
-    /*SUSCRIPCION AL BOLETIN*/
+    /*SUSCRIPCION AL BOLETIN*
 
     .suscribe_boletin{margin-top: 10%;
         margin-bottom: 10%;
@@ -191,7 +193,7 @@ border: none;}
     
     
     
-    /* PIE DE PAGINA */
+    /* PIE DE PAGINA *
     
     .container_pie_de_pagina{background-color: rgba(39, 119, 119, 0.562); 
 }
@@ -211,7 +213,7 @@ margin-top: 3rem;
 margin-left: 3.5rem;
 list-style: none;
 }
- 
+ */
     /*Pagina Inicion de Sesion*/
 
     .inicio_de_sesion{
@@ -339,7 +341,6 @@ background-size:cover;}
 margin-left: 10%;}
 .about_me{
 width: 20vw;
-
 justify-self: right;
 margin-left: 5%;
 }
@@ -353,7 +354,6 @@ margin-top: 2rem;
 margin-left: 15%;}
 .mision_y_vision p{font-size: 18px;
     line-height: 1.5rem;
-    
    text-align: justify;
    margin-left: 15%;
    }
@@ -385,10 +385,10 @@ text-align:  center;
 padding-top: 5%;
 padding-bottom: 5%;}
 
-.equipo{flex-direction: column;
+.equipo{
     width: 50%;
 }
-.last{flex-direction: column;
+.last{
     width: 100%;}
 
 .last img{width: 15vw;
@@ -512,10 +512,6 @@ width: 300px;}
 .todas_las_categorias  {margin-top: 8%;
 justify-content: center;
 margin-left: 25%;}
-
-.todas_las_categorias h2{}
-
-
 
 
 /* TABLET*/

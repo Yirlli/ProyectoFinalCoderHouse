@@ -1,0 +1,54 @@
+.titulo_todas_las_asesorias{
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.todas_las_asesorias{
+    margin-top: 2%;
+
+
+    aside{ 
+    width:14vw;
+    justify-content: left;
+
+        aside a {
+            width: 18vw;
+        }
+    }
+    .grid{
+        background-color: $colorSecundario;
+        width: 75%;
+        border-radius: 5%;
+        justify-content: center;
+        margin-left: 8%;
+
+        .box_categorias{
+            margin-top: 8%;
+            margin-left: 6%;
+            margin-right: 6%;
+            width: 90%;
+            padding-bottom: 4.5vh;
+
+            .card img{
+                transition: height 2s;
+                transition: 2s;
+
+                    &hover {
+                        height: 200px;
+                        width: 300px;
+                    }
+            }
+            }
+
+
+
+
+        }
+    
+}
+
+.todas_las_categorias  {
+    margin-top: 8%;
+    justify-content: center;
+    margin-left: 25%;
+}

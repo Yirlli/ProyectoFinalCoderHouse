@@ -1,0 +1,24 @@
+.container_pie_de_pagina {
+    background-color: $mainColor;
+
+    .pie_de_pagina{
+        justify-content: center;
+        width: 30%;
+        gap: 3rem;
+        flex-direction: column;
+
+        .footer{
+            width: 18vw;
+
+            .logo_footer{
+                width: 8vw;
+                margin-top: 3rem;
+                }
+            }
+        .redes{
+            margin-right: 1rem;
+            margin-left: 3.5rem;
+            list-style: none;
+        }    
+    }
+}

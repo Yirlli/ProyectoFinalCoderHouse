@@ -1,0 +1,33 @@
+.barra_navegacion{
+    background-color: $mainColor;
+
+    .header {
+    padding: 1rem;
+
+        img {width: 15vw;}
+
+        .burger{
+            display: none;
+            justify-content: right;}
+         
+            .header-right{justify-content: end; 
+
+                .nav_superior{
+                    padding-bottom: 1.3rem;
+                    padding-top: 1rem;}
+                .nav-bar{gap: 6rem;
+                    #pais{
+                         width: 8rem;
+                        font-size: 20px;
+                    .menu {
+                        list-style: none;
+                        font-weight: bold;
+                        .nav-bar a{
+                            font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}

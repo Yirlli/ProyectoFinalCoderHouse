@@ -1,0 +1,146 @@
+.about_company{
+   
+
+    .sobre_nosotros{
+        background-color: $colorTerceario;
+        
+        margin: 10% 10%;
+        border-radius: 5%;
+
+
+        .titulo_conocenos{
+            font-size: 40px;
+            margin-bottom: 5%;
+            margin-top: 10%;
+        }
+
+        .introduccion{
+            width: 90%;
+
+            p{
+                font-size: 18px;
+                text-align: justify;
+                line-height: 1.7rem;
+                margin-left: 15%;
+            }
+          }
+        
+          .cita_motivacional{
+            justify-self: center;
+            align-self: center;
+            font-size: 23px;
+            width: 45%;
+            margin-left: 15%;
+            padding-top: 3rem;}
+
+            .about_me{
+                width: 20vw;
+                justify-self: right;
+                margin-left: 5%;
+                }
+            .mision_y_vision{
+                width: 80%;
+
+                h2 {
+                    font-size: 28px;
+                    margin-bottom: 3rem;
+                    margin-top: 2rem;
+                    margin-left: 15%;
+                }
+
+                p{
+                font-size: 18px;
+                line-height: 1.5rem;
+                text-align: justify;
+                margin-left: 15%;
+                }
+            }   
+        
+
+            .valores{
+                padding-top:2%;
+                padding-bottom: 2%;
+                width:80%;
+
+                h2{
+                    font-size: 28px;
+                    margin-left: 15%;
+                }
+            
+                p{
+                    font-size: 18px;
+                    margin-bottom: 1.5rem ;
+                    margin-top: 1.5rem;
+                    margin-left: 15%;
+                    line-height: 1.5rem
+
+                }
+
+                ul li {
+                    font-size: 18px;
+                    gap:1rem;
+                    line-height: 1.5rem;
+                    margin-left: 15%;
+                }
+            
+            }
+
+            .titulo_equipo{
+            font-size: 28px;
+            text-align:  center;
+            padding-top: 5%;
+            padding-bottom: 5%;}
+
+            .container_equipo{
+                background-color: $colorSecundario;
+                flex-wrap: wrap;
+                padding-top: 3rem;
+                
+                .equipo{
+                    width: 50%;
+
+                    img{
+                        width: 13vw;
+                        border-radius: 50%;
+                        margin-bottom:10%;
+                        margin-left: 10%;
+                        align-self: center;
+                    }
+
+                    p{
+                    width: 70%;
+                    font-size: 18px;
+                    text-align: justify;
+                    margin-left: 12%;
+                    margin-bottom: 15%;  
+                    }
+                }
+            
+                .last{
+                    width: 100%;
+
+                    img{
+                        width: 15vw;
+                        border-radius: 50%;
+                        margin-bottom:10%;
+                        align-self: center
+                        }
+                    p{
+                        width: 50%;
+                        font-size: 18px;
+                        text-align: justify;
+                        margin-bottom: 15%;
+                        align-self: center
+                    }
+                }
+            }
+
+    }
+
+
+
+
+
+
+
+}

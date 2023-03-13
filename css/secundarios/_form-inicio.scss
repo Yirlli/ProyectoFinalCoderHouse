@@ -1,0 +1,35 @@
+.inicio_de_sesion{
+    background-image: $fondoImagen;
+    background-size: cover;
+
+    .fondo_inicio_sesion{
+        background-color: $colorSecundario;
+        margin-bottom: 15%;
+        border-radius: 40%;
+        margin-top: 5%;
+        width: 40vw;
+
+        .logo_inicio{
+            padding-top: 2rem;
+            width: 20vw;
+            margin-left: 6.5rem;
+        }
+
+        .formulario_inicio_sesion h1{
+            font-size: 40px; 
+            margin-top: 15%;
+            margin-bottom: 2rem;
+            }
+        .formulario_inicio_sesion label, input{
+            font-size: 20px;
+        }
+
+        .formulario_inicio_sesion input {
+            width: 60%;
+        }
+        
+        .olvide_contraseña{
+            margin-left: 28%;
+        }      
+    }
+}

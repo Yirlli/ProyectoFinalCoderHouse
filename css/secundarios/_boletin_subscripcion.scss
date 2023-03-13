@@ -1,0 +1,32 @@
+.suscribe_boletin{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+
+    .suscribe_boletin h2{
+        font-size: 24px;
+        text-align: center;
+        width: 80vw;}
+
+    .suscribe_boletin input{
+        font-size: 25px;
+        width: 25vw;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem
+        }
+    .suscribe_boletin button{
+        width: 6rem;
+        font-size: 20px;
+        
+        &hover{
+            background-color: $colorSecundario ;
+            width: 8rem;
+            height: 4rem;
+            border-radius: 30%;
+            border: none;
+
+        }
+    }        
+}

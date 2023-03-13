@@ -1,0 +1,54 @@
+.crear_cuenta {
+    background-image: $fondoImagen;
+    background-size: cover;
+
+    .fondo_apertura{
+    background-color: $colorSecundario;
+    width: 40vw;
+    border-radius: 30%;
+    margin-top: 6%;
+    margin-bottom: 8%;
+
+        .logo_crear_cuenta{
+        width: 20vw;
+        margin-top: 3vw;
+        margin-left: 11vw;
+            }
+
+    .apertura{
+        gap:1rem;
+        margin-top: 5rem;
+        align-items: center;
+
+        .apertura h1{font-size: 25px;
+            text-align: center;
+            margin-bottom: 10%; 
+        }
+        .apertura label {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .apertura input{
+            font-size: 25px;
+        }
+
+        .form-control, .form-select {
+            width: 30vw;}
+    }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

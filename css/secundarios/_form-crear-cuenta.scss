@@ -4,7 +4,6 @@
 
     .fondo_apertura{
     background-color: $colorSecundario;
-    width: 30vw;
     border-radius: 40%;
     margin-top: 6%;
     margin-bottom: 8%;
@@ -13,7 +12,7 @@
         .logo_crear_cuenta{
         width: 16vw;
         margin-top: 3vw;
-        margin-left: 8vw;
+        margin-left: 6vw;
             }
 
     .apertura{
@@ -25,31 +24,32 @@
             text-align: center;
             margin-bottom: 10%; 
         }
-        .apertura label {
-            font-size: 25px;
+        .form-label {
+            font-size: 23px;
             font-weight: bold;
         }
 
-        .apertura input{
-            font-size: 25px;
+        .form-control{
+            font-size: 20px;
         }
 
         .form-control, .form-select {
-            width: 15vw;}
-    }
+            width: 60%;
+                }
+            
+                .form-check{
+                    margin-left: 5rem;
 
+                    .form-check-label{
+                    font-size: 20px;
+                    width: 20vw;
+                    
+                    }
+                } 
+            }
+        }
 
-    }
-
-
-
-
-
-
-
-
-
-
-
-
+    .volver{
+                padding-bottom: 4rem;
+            }
 }

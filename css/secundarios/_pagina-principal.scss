@@ -3,7 +3,7 @@
     padding-bottom: 3rem;
 
     h2{
-    font-size: 40px;
+    font-size: 52px;
     
     }
 }
@@ -37,12 +37,12 @@
 .grid-container{
     .grid-acordion h3{
         text-align: center;
-        padding-top:4rem;
-        padding-bottom: 4%;
-        font-size: 40px;}
+        padding-top:10%;
+        padding-bottom: 8%;
+        font-size: 52px;}
 
         .accordion{
-            width: 40%;
+            width: 44%;
             margin-left: 29%;
 
             .accordion-button{
@@ -62,20 +62,21 @@
             margin-top: 1rem;
             text-align: center;
         }
-    
+        
+        .grid-carusel .carousel .carousel-control-prev{
+            margin-left: 20%;
+        }
         .grid-carusel h3{
             text-align: center;
             padding-top:15%;
             padding-bottom: 10%;
-            font-size: 40px;    
+            font-size: 52px;    
         }
         .carousel-inner{
             padding-right: 33%;
             }
-            .carousel-item img {
-
+        .carousel-item img {
             width: 30vw;
-    
         }    
     }  
 

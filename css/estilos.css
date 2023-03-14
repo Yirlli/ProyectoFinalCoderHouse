@@ -249,6 +249,9 @@ a {
 .todas_las_asesorias {
   margin-top: 2%;
 }
+.todas_las_asesorias .barra_lateral .aside {
+  display: flex;
+}
 .todas_las_asesorias .barra_lateral a {
   width: 12vw;
 }
@@ -477,20 +480,24 @@ a {
 }
 
 @media screen and (max-width: 1023px) {
-  .header img {
-    width: 24vw;
+  .barra_navegacion .header img {
+    width: 20vw;
     margin-left: 1rem;
   }
-  .header .burger {
+  .barra_navegacion .header .burger {
     display: flex;
-    margin-top: 2rem;
-    height: 7vh;
+    margin-top: 5%;
+    margin-right: 5%;
+    height: 9vh;
   }
   .header-right {
     display: none;
   }
   .boton_acceder {
     width: 13vw;
+  }
+  .todas_las_asesorias aside {
+    display: none;
   }
   .container_categorias {
     flex-direction: column;
@@ -513,14 +520,15 @@ a {
     align-items: center;
   }
   .suscribe_boletin h2 {
-    font-size: 20px;
+    font-size: 26px;
+    text-align: center;
+    width: 70vw;
   }
-  .suscribe_boletin input {
+  .suscribe_boletin .form-control {
     font-size: 18px;
-    width: 40vw;
-    height: 2.5vh;
+    width: 30vw;
     margin-left: 1.5rem;
-    margin-top: 3%;
+    margin-bottom: 0.1%;
   }
   .suscribe_boletin button {
     width: 4.5rem;
@@ -529,6 +537,12 @@ a {
   }
   .about_me img {
     width: 5vw;
+  }
+  .todas_las_asesorias .grid {
+    margin-left: 14%;
+  }
+  .todas_las_categorias {
+    margin-left: 10%;
   }
   .fondo_apertura .form-control, .fondo_apertura .form-select {
     width: 18vw;
@@ -583,10 +597,10 @@ a {
   }
 }
 @media screen and (max-width: 600px) {
-  .header img {
+  .barra_navegacion .header img {
     width: 25vw;
   }
-  .header .burger {
+  .barra_navegacion .header .burger {
     display: flex;
   }
   .header-right {
@@ -665,10 +679,19 @@ a {
   .barra_lateral {
     display: none;
   }
+  .titulo_todas_las_asesorias {
+    font-size: 28px;
+    padding-bottom: 5%;
+  }
   .todas_las_categorias {
     margin-top: 8%;
     justify-content: center;
     margin-left: 2%;
+  }
+  .suscribe_boletin .form-control {
+    font-size: 20px;
+    width: 40vw;
+    height: 20%;
   }
   .inicio_de_sesion .olvide_contraseña {
     margin-left: 4rem;
@@ -727,10 +750,10 @@ a {
   .header-right {
     display: none;
   }
-  .header img {
+  .barra_navegacion .header img {
     width: 25vw;
   }
-  .header .burger {
+  .barra_navegacion .header .burger {
     display: flex;
   }
   .index {
@@ -845,27 +868,26 @@ a {
     width: 30vw;
     margin-top: 3rem;
   }
-  .fondo_apertura .apertura h1 {
+  .fondo_apertura .apertura .apertura h1 {
     font-size: 30px;
   }
-  .fondo_apertura .apertura .form-control {
+  .fondo_apertura .apertura .apertura .form-control {
     width: 70vw;
   }
-  .fondo_apertura .apertura .form-check-label {
+  .fondo_apertura .apertura .apertura .form-check-label {
     width: 40vw;
   }
-  .fondo_apertura .apertura .form-label {
+  .fondo_apertura .apertura .apertura .form-label {
     font-size: 18px;
   }
-  .fondo_apertura .apertura .form-select {
+  .fondo_apertura .apertura .apertura .form-select {
     width: 40vw;
   }
-  .fondo_apertura .apertura .boton_cuenta {
+  .fondo_apertura .apertura .apertura .boton_cuenta {
     width: 14vw;
   }
-}
-@media screen and (max-width: 320px) {
-  .fondo_apertura {
-    width: 50vw;
+  .titulo_todas_las_asesorias {
+    width: 80%;
+    margin-left: 11%;
   }
 }/*# sourceMappingURL=estilos.css.map */

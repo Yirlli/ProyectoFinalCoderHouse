@@ -746,7 +746,6 @@
             }
         }
     }
-//PAGINA APERTURA CUENTA
 
     /// PAGINA CREAR CUENTA//
   
@@ -796,11 +795,11 @@
             
             }
 
-    }
+        }
 
     
     
-}
+    }   
 
 // PAGINA CATEGORIAS
 
@@ -816,6 +815,129 @@
         }
 
     }
+
+@media screen and  (max-width: 320px){
+
+    // inicio de sesion
+.inicio_de_sesion {
+
+    .fondo_inicio_sesion{
+        width: 75vw;
+
+        .logo_inicio{
+            margin-left: 30%;
+            width: 34vw;
+
+        }
+
+        .formulario_inicio_sesion{
+            width: 75vw;
+
+            h1{
+                font-size: 27px;
+            }
+
+            .form-label{
+                width: 50vw;
+                font-size: 20px;
+            }
+            
+            .form-control{
+                width: 63vw;
+                font-size: 15px;
+             }
+        }
+
+        .form-check{
+            width: 64vw;
+
+            .boton_cuenta{
+                width: 22vw;
+                font-size: 15px;
+
+                a {
+                    color: black;
+                }
+             }
+
+        }
+
+        .olvide_contraseña {
+            margin-left: 30%;
+
+        }
+        
+        .boton_cuenta_nueva{
+            width: 34vw;
+            font-size: 15px;
+
+            a {
+                color: black;
+            }
+
+            }
+        }
+    }
+
+
+
+     /// PAGINA CREAR CUENTA//
+  
+    
+.crear_cuenta{
+
+    form{
+        .fondo_apertura {
+            width: 90vw;
+
+            .logo_crear_cuenta{
+                width: 45vw;
+            margin-top: 3rem;
+            margin-left: 28%;
+
+            }
+            .apertura{
+                width: 90vw;
+
+                h1{
+                    font-size:29px ;
+                }
+
+                .form-label {
+                    font-size: 20px;
+                }
+                .form-check{ 
+                    margin-left:0.5rem ;
+                    width: 60vw;
+                
+                    .form-check-label{
+                        width: 55vw;
+                        font-size: 18px;
+                    }
+                }
+
+                .form-control, .form-select {
+                    width: 72vw;
+                    font-size: 16px;
+
+                    }
+                .boton_cuenta{
+                    margin-left: 3%;
+                    width: 24vw;
+
+                    }
+                }
+            
+            }
+
+        }
+
+    
+    
+    }
+
+    
+}
 
 
 

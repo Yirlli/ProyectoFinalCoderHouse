@@ -364,7 +364,7 @@ a {
 .about_company .sobre_nosotros .valores ul li {
   font-size: 18px;
   gap: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   margin-left: 15%;
 }
 .about_company .sobre_nosotros .titulo_equipo {
@@ -1027,5 +1027,81 @@ a {
     width: 67vw;
     height: 16%;
     margin: 1%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .inicio_de_sesion .fondo_inicio_sesion {
+    width: 75vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
+    margin-left: 30%;
+    width: 34vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
+    width: 75vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
+    font-size: 27px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
+    width: 50vw;
+    font-size: 20px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
+    width: 63vw;
+    font-size: 15px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check {
+    width: 64vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
+    width: 22vw;
+    font-size: 15px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta a {
+    color: black;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .olvide_contraseña {
+    margin-left: 30%;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva {
+    width: 34vw;
+    font-size: 15px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva a {
+    color: black;
+  }
+  .crear_cuenta form .fondo_apertura {
+    width: 90vw;
+  }
+  .crear_cuenta form .fondo_apertura .logo_crear_cuenta {
+    width: 45vw;
+    margin-top: 3rem;
+    margin-left: 28%;
+  }
+  .crear_cuenta form .fondo_apertura .apertura {
+    width: 90vw;
+  }
+  .crear_cuenta form .fondo_apertura .apertura h1 {
+    font-size: 29px;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-label {
+    font-size: 20px;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-check {
+    margin-left: 0.5rem;
+    width: 60vw;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-check .form-check-label {
+    width: 55vw;
+    font-size: 18px;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-control, .crear_cuenta form .fondo_apertura .apertura .form-select {
+    width: 72vw;
+    font-size: 16px;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .boton_cuenta {
+    margin-left: 3%;
+    width: 24vw;
   }
 }/*# sourceMappingURL=estilos.css.map */

@@ -1085,20 +1085,23 @@ form {
     font-size: 20px;
     line-height: 2rem;
   }
-  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo {
+  .about_company .sobre_nosotros .container_equipo {
     flex-direction: column;
   }
-  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo .equipo {
+  .about_company .sobre_nosotros .container_equipo .equipo {
     width: auto;
   }
-  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo .equipo img {
+  .about_company .sobre_nosotros .container_equipo .equipo img {
     width: 35vw;
   }
-  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo .last img {
+  .about_company .sobre_nosotros .container_equipo .last img {
     width: 35vw;
   }
-  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo .last p {
+  .about_company .sobre_nosotros .container_equipo .last p {
     width: 70%;
+  }
+  .volver {
+    text-align: center;
   }
 }
 @media screen and (max-width: 320px) {

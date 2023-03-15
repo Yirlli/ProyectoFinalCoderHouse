@@ -1031,31 +1031,31 @@ a {
 }
 @media screen and (max-width: 320px) {
   .inicio_de_sesion .fondo_inicio_sesion {
-    width: 75vw;
+    width: 82vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
     margin-left: 30%;
     width: 34vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
-    width: 75vw;
+    width: 86vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
-    font-size: 27px;
+    font-size: 22px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
-    width: 50vw;
-    font-size: 20px;
+    width: 70vw;
+    font-size: 15px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
-    width: 68vw;
-    font-size: 15px;
+    width: 70vw;
+    font-size: 13px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check {
     width: 64vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
-    width: 25vw;
+    width: 30vw;
     font-size: 15px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta a {
@@ -1065,7 +1065,7 @@ a {
     margin-left: 30%;
   }
   .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva {
-    width: 38vw;
+    width: 44vw;
     font-size: 15px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva a {

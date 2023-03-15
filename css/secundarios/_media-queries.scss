@@ -700,7 +700,7 @@
 .inicio_de_sesion {
 
     .fondo_inicio_sesion{
-        width: 68vw;
+        width: 70vw;
 
         .logo_inicio{
             margin-left: 30%;
@@ -709,20 +709,20 @@
         }
 
         .formulario_inicio_sesion{
-            width: 68vw;
+            width: 70vw;
 
             h1{
                 font-size: 31px;
             }
 
             .form-label{
-                width: 33vw;
+                width: 40vw;
                 font-size: 20px;
             }
             
             .form-control{
-                width: 45vw;
-                font-size: 18px;
+                width: 58vw;
+                font-size: 17px;
              }
         }
 
@@ -730,18 +730,19 @@
             width: 54vw;
 
             .boton_cuenta{
-                width: 17vw;
+                width: 20vw;
              }
 
         }
 
         .olvide_contraseña {
-            margin-left: 23%;
+            margin-left: 33%;
+            width: 53vw;
 
         }
         
         .boton_cuenta_nueva{
-            width: 25vw;
+            width: 32vw;
 
             }
         }
@@ -822,7 +823,7 @@
 .inicio_de_sesion {
 
     .fondo_inicio_sesion{
-        width: 82vw;
+        width: 72vw;
 
         .logo_inicio{
             margin-left: 30%;
@@ -831,19 +832,19 @@
         }
 
         .formulario_inicio_sesion{
-            width: 86vw;
+            width: 72vw;
 
             h1{
                 font-size: 22px;
             }
 
             .form-label{
-                width: 70vw;
+                width: 40vw;
                 font-size: 15px;
             }
             
             .form-control{
-                width: 70vw;
+                width: 60vw;
                 font-size: 13px;
              }
         }
@@ -864,11 +865,12 @@
 
         .olvide_contraseña {
             margin-left: 30%;
+            font-size: 15px;
 
         }
         
         .boton_cuenta_nueva{
-            width: 44vw;
+            width: 34vw;
             font-size: 15px;
 
             a {
@@ -876,6 +878,9 @@
             }
 
             }
+        }
+        .volver{
+            padding-bottom: 45%;
         }
     }
 
@@ -931,12 +936,76 @@
             }
 
         }
-
-    
-    
     }
 
+    // pagina principal
+    .index{
+        padding-bottom: 30%;
     
+
+        .titulo_principal .sombra_titulo1{
+            font-size: 30px;
+            margin-top:13%;
+            width: 80%;
+          padding: 3%;
+            
+        }
+
+        .titulo_principal .sombra_titulo2{
+            display:none
+        }
+
+        
+
+        .titulo_principal .boton_acceder{
+            width: 44vw;
+            margin-top: 40%;
+                }
+        }
+    
+    .container_categorias .tipos_de_categorias .imagenes_categorias {
+        width: 70vw;
+        
+    }
+    .categorias_titulo h2{
+        font-size: 40px;
+
+    }
+    .accordion{
+        width: 80%;
+        margin-left: 10%
+    }
+    .grid-container .grid-acordion h2 {
+        padding-top: 30%;
+        padding-bottom: 20%;
+    }
+
+    .grid-container .grid-acordion {
+        width: 70%;
+    }
+
+    .grid-container .grid-acordion-body img {
+        width: 50vw;
+    }
+
+    .grid-container .grid-carusel h3{
+        font-size: 40px;
+
+    }
+    .grid-container .carousel-inner {
+        padding-right: 100%;
+    }
+    .grid-container .carousel-item img {
+        width: 90vw;
+        margin-left: 1rem;
+    }
+    
+
+    // NAVBAR
+
+    .barra_navegacion .header img{
+        width: 40vw;
+    }
 }
 
 

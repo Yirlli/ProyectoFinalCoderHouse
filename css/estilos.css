@@ -316,15 +316,15 @@ form {
   width: 90%;
 }
 .about_company .sobre_nosotros .introduccion p {
-  font-size: 18px;
+  font-size: 24px;
   text-align: justify;
-  line-height: 1.7rem;
+  line-height: 2rem;
   margin-left: 15%;
 }
 .about_company .sobre_nosotros .cita_motivacional {
   justify-self: center;
   align-self: center;
-  font-size: 23px;
+  font-size: 28px;
   width: 45%;
   margin-left: 15%;
   padding-top: 3rem;
@@ -338,14 +338,14 @@ form {
   width: 80%;
 }
 .about_company .sobre_nosotros .mision_y_vision h2 {
-  font-size: 28px;
+  font-size: 34px;
   margin-bottom: 3rem;
   margin-top: 2rem;
   margin-left: 15%;
 }
 .about_company .sobre_nosotros .mision_y_vision p {
-  font-size: 18px;
-  line-height: 1.5rem;
+  font-size: 24px;
+  line-height: 2rem;
   text-align: justify;
   margin-left: 15%;
 }
@@ -355,24 +355,24 @@ form {
   width: 80%;
 }
 .about_company .sobre_nosotros .valores h2 {
-  font-size: 28px;
+  font-size: 34px;
   margin-left: 15%;
 }
 .about_company .sobre_nosotros .valores p {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   margin-left: 15%;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 .about_company .sobre_nosotros .valores ul li {
-  font-size: 18px;
+  font-size: 24px;
   gap: 1rem;
-  line-height: 1.8rem;
+  line-height: 2.4rem;
   margin-left: 15%;
 }
 .about_company .sobre_nosotros .titulo_equipo {
-  font-size: 28px;
+  font-size: 34px;
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -445,11 +445,10 @@ form {
   flex-direction: column;
   align-items: center;
 }
-.suscribe_boletin .h2 {
+.suscribe_boletin h2 {
   font-size: 24px;
   text-align: center;
   width: 80vw;
-  margin-bottom: 10%;
 }
 .suscribe_boletin .form-control {
   font-size: 25px;
@@ -855,22 +854,28 @@ form {
     margin-left: 10%;
     width: 14vw;
   }
-  .cita_motivacional {
-    font-size: 20px;
+  .about_company .sobre_nosotros .titulo_conocenos {
+    font-size: 38px;
   }
-  .about_me {
-    height: 25vh;
-    margin-top: 5rem;
+  .about_company .sobre_nosotros .introduccion p {
+    font-size: 22px;
+    line-height: 1.6rem;
   }
-  .container_equipo {
-    flex-direction: column;
+  .about_company .sobre_nosotros .cita_motivacional {
+    font-size: 24px;
   }
-  .container_equipo .equipo {
-    width: 80vw;
+  .about_company .sobre_nosotros .about_me {
+    margin-top: 18%;
+    width: 35vw;
+    height: 45vw;
   }
-  .container_equipo .equipo img {
-    width: 25vw;
-    margin-left: 1rem;
+  .about_company .sobre_nosotros .mision_y_vision p {
+    font-size: 22px;
+    line-height: 1.6rem;
+  }
+  .about_company .sobre_nosotros .valores p {
+    font-size: 22px;
+    line-height: 1.6rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -899,18 +904,30 @@ form {
     width: 35vw;
     margin-top: 25%;
   }
+  .categorias_titulo h2 {
+    font-size: 45px;
+  }
   .container_categorias .tipos_de_categorias .imagenes_categorias {
-    width: 58vw;
+    width: 65vw;
+  }
+  .grid-container .accordion-body img {
+    width: 50vw;
+  }
+  .grid-container .grid-acordion h3 {
+    font-size: 45px;
   }
   .accordion {
     width: 80%;
     margin-left: 10%;
   }
+  .grid-container .grid-carusel h3 {
+    font-size: 45px;
+  }
   .grid-container .carousel-inner {
-    padding-right: 84%;
+    padding-right: 100%;
   }
   .grid-container .carousel-item img {
-    width: 80vw;
+    width: 90vw;
     margin-left: 1.2rem;
   }
   .suscribe_boletin {
@@ -1032,6 +1049,56 @@ form {
     width: 67vw;
     height: 16%;
     margin: 1%;
+  }
+  .about_company .sobre_nosotros {
+    margin: 1%;
+    margin-top: 5%;
+  }
+  .about_company .sobre_nosotros .titulo_conocenos {
+    font-size: 34px;
+  }
+  .about_company .sobre_nosotros .introduccion p {
+    font-size: 20px;
+    line-height: 1.4rem;
+  }
+  .about_company .sobre_nosotros .cita_motivacional {
+    font-size: 23px;
+    line-height: 2rem;
+  }
+  .about_company .sobre_nosotros .about_me {
+    margin-top: 35%;
+    width: 38vw;
+    height: 65vw;
+  }
+  .about_company .sobre_nosotros .mision_y_vision h2 {
+    font-size: 32px;
+  }
+  .about_company .sobre_nosotros .mision_y_vision p {
+    font-size: 20px;
+    line-height: 1.4rem;
+  }
+  .about_company .sobre_nosotros .valores p {
+    font-size: 22px;
+    line-height: 1.6rem;
+  }
+  .about_company .sobre_nosotros .valores ul li {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo {
+    flex-direction: column;
+  }
+  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo .equipo {
+    width: auto;
+  }
+  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo .equipo img {
+    width: 35vw;
+  }
+  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo .last img {
+    width: 35vw;
+  }
+  .about_company .sobre_nosotros .seccion_equipo .about_company .sobre_nosotros .container_equipo .last p {
+    width: 70%;
   }
 }
 @media screen and (max-width: 320px) {

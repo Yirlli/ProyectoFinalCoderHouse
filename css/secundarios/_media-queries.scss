@@ -150,16 +150,11 @@
                 }
 
             }
-
-            .olvide_contraseña {
-
-            }
             
             .boton_cuenta_nueva{
                 width: 12vw;
 
             }
-
 
         }
 
@@ -549,28 +544,104 @@
 
 //PAGINA SOBRE NOSOTROS
 
-    .cita_motivacional{
-    font-size: 20px;
-    }
+    .about_company{
 
-    .about_me {
-    height: 25vh;
-    margin-top: 5rem;
-    }
+        .sobre_nosotros{
 
-    .container_equipo{
-        flex-direction: column;
+            .titulo_conocenos{
+                font-size: 38px;
 
-        .equipo{
-         width: 80vw;
+            }
 
-            img {
-                width: 25vw;
-                margin-left: 1rem;
+            .introduccion{
+
+                p{ font-size: 22px;
+                    line-height: 1.6rem;
+
+                }
+            }
+
+            .cita_motivacional{
+                font-size: 24px;
+
+                
+            }
+            .about_me{
+                margin-top: 18%;
+                width: 35vw;
+                height: 45vw;
+
+            }
+            .mision_y_vision{
+
+                h2{
+
+                
+                }
+
+                p{
+                    font-size: 22px;
+                    line-height: 1.6rem;
+
+                }
+
+            }
+
+            .valores{
+
+                h2{
+
+                }
+
+                p{
+                    font-size: 22px;
+                    line-height: 1.6rem;
+
+                }
+            }
+
+            .seccion_equipo{
+
+                .titulo_equipo{
+
+                }
+
+                .container_equipo{
+
+                    .equipo{
+
+                        img{
+
+                        }
+
+                        p{
+                            
+
+                        }
+                    }
+
+                    .last{
+
+                        img{
+
+                        }
+
+                        p{
+
+                        }
+                    }
+
+                }
+
+
             }
         }
-    }
 
+        .volver{
+
+        }
+
+    }
 
 
 
@@ -616,21 +687,32 @@
             margin-top: 25%;
                 }
         }
-    
+    .categorias_titulo h2{
+        font-size: 45px;
+    }
     .container_categorias .tipos_de_categorias .imagenes_categorias {
-        width: 58vw;
+        width: 65vw;
         
     }
+    .grid-container .accordion-body img {
+        width: 50vw;
+    }
 
+    .grid-container .grid-acordion h3{
+        font-size: 45px;
+    }
     .accordion{
         width: 80%;
         margin-left: 10%
     }
+    .grid-container .grid-carusel h3 {
+        font-size: 45px;
+    }
     .grid-container .carousel-inner {
-        padding-right: 84%;
+        padding-right: 100%;
     }
     .grid-container .carousel-item img {
-        width: 80vw;
+        width: 90vw;
         margin-left: 1.2rem;
     }
 //SUBSCRICION DE BOLETIN
@@ -815,7 +897,92 @@
             margin: 1%;
         }
 
-    }
+        //PAGINA SOBRE NOSOTROS
+
+    .about_company{
+
+        .sobre_nosotros{
+            margin: 1%;
+            margin-top: 5%;
+
+            .titulo_conocenos{
+                font-size: 34px;}
+
+            .introduccion{
+
+                p{ font-size: 20px;
+                    line-height: 1.4rem;}
+            }
+
+            .cita_motivacional{
+                font-size: 23px;
+                line-height: 2rem;
+                
+            }
+            .about_me{
+                margin-top: 35%;
+                width: 38vw;
+                height: 65vw;
+             }
+            .mision_y_vision{
+
+                h2{ 
+                    font-size: 32px;}
+
+                p{
+                    font-size: 20px;
+                    line-height: 1.4rem;}
+            }
+
+            .valores{ 
+
+                p{
+                    font-size: 22px;
+                    line-height: 1.6rem;}
+
+                ul li{
+                    font-size: 20px;
+                    line-height: 2rem;
+                }
+            }
+
+            .seccion_equipo{ 
+                
+            .about_company .sobre_nosotros .container_equipo{
+                    flex-direction: column;
+
+                    .equipo{
+                        width: auto;
+
+                        img{ 
+                            width: 35vw; }
+
+                    }
+
+                    .last{
+
+                        img{
+                            width: 35vw;}
+
+                        p{
+                            width: 70%;}
+                        }
+
+                    }
+
+                }
+            }
+        }
+
+        
+        .volver{
+
+        }
+
+    
+
+
+}
 
 @media screen and  (max-width: 320px){
 

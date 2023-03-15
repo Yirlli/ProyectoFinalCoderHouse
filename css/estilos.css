@@ -163,7 +163,7 @@ a {
 }
 
 .inicio_de_sesion {
-  background-image: url(../../img/pexels-fauxels-3183198.jpg);
+  background-image: url(../img/pexels-fauxels-3183198.jpg);
   background-size: cover;
 }
 .inicio_de_sesion .fondo_inicio_sesion {
@@ -177,18 +177,28 @@ a {
 .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
   padding-top: 2rem;
   width: 16vw;
-  margin-left: 8rem;
+  margin-left: 27%;
+}
+.inicio_de_sesion .fondo_inicio_sesion .form-check {
+  width: 25vw;
+}
+.inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
+  margin-left: 12%;
+  width: 6vw;
 }
 .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
   font-size: 40px;
   margin-top: 15%;
   margin-bottom: 2rem;
 }
-.inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion label, .inicio_de_sesion .fondo_inicio_sesion input {
+.inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label, .inicio_de_sesion .fondo_inicio_sesion .form-control {
   font-size: 20px;
 }
-.inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion input {
-  width: 60%;
+.inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
+  font-weight: bold;
+}
+.inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
+  width: 63%;
 }
 .inicio_de_sesion .fondo_inicio_sesion .olvide_contraseña {
   margin-left: 28%;
@@ -198,12 +208,12 @@ a {
 }
 
 .crear_cuenta {
-  background-image: url(../../img/pexels-fauxels-3183198.jpg);
+  background-image: url(../img/pexels-fauxels-3183198.jpg);
   background-size: cover;
 }
 .crear_cuenta .fondo_apertura {
   background-color: rgba(153, 201, 201, 0.664);
-  border-radius: 40%;
+  border-radius: 30%;
   margin-top: 6%;
   margin-bottom: 8%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -211,12 +221,13 @@ a {
 .crear_cuenta .fondo_apertura .logo_crear_cuenta {
   width: 16vw;
   margin-top: 3vw;
-  margin-left: 6vw;
+  margin-left: 9vw;
 }
 .crear_cuenta .fondo_apertura .apertura {
   gap: 1rem;
   margin-top: 5rem;
   align-items: center;
+  width: 33vw;
 }
 .crear_cuenta .fondo_apertura .apertura .apertura h1 {
   font-size: 25px;
@@ -231,7 +242,7 @@ a {
   font-size: 20px;
 }
 .crear_cuenta .fondo_apertura .apertura .form-control, .crear_cuenta .fondo_apertura .apertura .form-select {
-  width: 60%;
+  width: 65%;
 }
 .crear_cuenta .fondo_apertura .apertura .form-check {
   margin-left: 5rem;
@@ -566,52 +577,106 @@ a {
   .todas_las_categorias {
     margin-left: 10%;
   }
-  .fondo_apertura .form-control, .fondo_apertura .form-select {
-    width: 18vw;
+  .inicio_de_sesion .fondo_inicio_sesion {
+    width: 40vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
+    margin-left: 32%;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
+    width: 40vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
+    width: 25vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
+    width: 25vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check {
+    width: 32vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
+    width: 9vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva {
+    width: 12vw;
+  }
+  .crear_cuenta .fondo_apertura {
+    width: 40vw;
+  }
+  .crear_cuenta .fondo_apertura .logo_crear_cuenta {
+    margin-left: 32%;
+  }
+  .crear_cuenta .fondo_apertura .apertura {
+    width: 40vw;
+  }
+  .crear_cuenta .fondo_apertura .apertura .form-check {
+    margin-left: 0.5rem;
+  }
+  .crear_cuenta .fondo_apertura .apertura .form-control, .crear_cuenta .fondo_apertura .apertura .form-select {
+    width: 25vw;
+  }
+  .crear_cuenta .fondo_apertura .apertura .boton_cuenta {
+    margin-left: 10%;
+    width: 10vw;
   }
 }
 @media screen and (max-width: 768px) {
-  .fondo_inicio_sesion {
-    margin-top: 3rem;
+  .inicio_de_sesion .fondo_inicio_sesion {
+    width: 48vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
+    margin-left: 32%;
+    width: 20vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
+    width: 48vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
+    font-size: 37px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
+    width: 25vw;
+    font-size: 22px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
+    width: 31vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check {
+    width: 38vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
+    width: 11vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva {
+    width: 16vw;
+  }
+  .crear_cuenta form .fondo_apertura {
     width: 50vw;
   }
-  .fondo_inicio_sesion .logo_inicio {
-    width: 30vw;
-    margin-left: 4rem;
-  }
-  .fondo_inicio_sesion .formulario_inicio_sesion h1 {
-    font-size: 30px;
-  }
-  .fondo_inicio_sesion .formulario_inicio_sesion input {
-    width: 30vw;
-  }
-  .fondo_inicio_sesion .form-check .boton_cuenta {
-    width: 19vw;
-  }
-  .olvide_contraseña {
-    margin-left: 4rem;
-  }
-  .boton_cuenta_nueva {
-    width: 20vw;
-  }
-  .fondo_apertura {
-    width: 59vw;
-  }
-  .fondo_apertura .logo_crear_cuenta {
+  .crear_cuenta form .fondo_apertura .logo_crear_cuenta {
     width: 20vw;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 32%;
   }
-  .fondo_apertura .apertura .apertura h1 {
-    font-size: 20px;
+  .crear_cuenta form .fondo_apertura .apertura {
+    width: 50vw;
   }
-  .fondo_apertura .apertura .form-control {
-    width: 20vw;
+  .crear_cuenta form .fondo_apertura .apertura h1 {
+    font-size: 38px;
   }
-  .fondo_apertura .apertura .form-check-label {
-    width: 20vw;
+  .crear_cuenta form .fondo_apertura .apertura .form-check {
+    margin-left: 0.5rem;
+    width: 30vw;
   }
-  .fondo_apertura .apertura .boton_cuenta {
+  .crear_cuenta form .fondo_apertura .apertura .form-check .form-check-label {
+    width: 32vw;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-control, .crear_cuenta form .fondo_apertura .apertura .form-select {
+    width: 34vw;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .boton_cuenta {
+    margin-left: 10%;
     width: 14vw;
   }
   .about_me {
@@ -726,39 +791,64 @@ a {
     width: 40vw;
     height: 20%;
   }
-  .inicio_de_sesion .olvide_contraseña {
-    margin-left: 4rem;
+  .inicio_de_sesion .fondo_inicio_sesion {
+    width: 54vw;
   }
-  .fondo_inicio_sesion .logo_inicio {
-    width: 30vw;
-    margin-left: 15rem;
+  .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
+    margin-left: 30%;
+    width: 24vw;
   }
-  .formulario_inicio_sesion h1 {
-    font-size: 30px;
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
+    width: 54vw;
   }
-  .formulario_inicio_sesion input {
-    width: 50vw;
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
+    font-size: 33px;
   }
-  .formulario_inicio_sesion .form-check .boton_cuenta {
-    width: 19vw;
-  }
-  .formulario_inicio_sesion .boton_cuenta_nueva {
-    width: 28vw;
-  }
-  .fondo_apertura {
-    width: 75vw;
-  }
-  .fondo_apertura .logo_crear_cuenta {
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
     width: 25vw;
+    font-size: 22px;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
+    width: 38vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check {
+    width: 42vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
+    width: 14vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .olvide_contraseña {
+    margin-left: 23%;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva {
+    width: 20vw;
+  }
+  .crear_cuenta form .fondo_apertura {
+    width: 68vw;
+  }
+  .crear_cuenta form .fondo_apertura .logo_crear_cuenta {
+    width: 30vw;
     margin-top: 3rem;
+    margin-left: 28%;
   }
-  .fondo_apertura .form-control {
-    width: 55vw;
+  .crear_cuenta form .fondo_apertura .apertura {
+    width: 68vw;
   }
-  .fondo_apertura .form-check-label {
+  .crear_cuenta form .fondo_apertura .apertura h1 {
+    font-size: 35px;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-check {
+    margin-left: 0.5rem;
     width: 40vw;
   }
-  .fondo_apertura .apertura .boton_cuenta {
+  .crear_cuenta form .fondo_apertura .apertura .form-check .form-check-label {
+    width: 32vw;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-control, .crear_cuenta form .fondo_apertura .apertura .form-select {
+    width: 53vw;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .boton_cuenta {
+    margin-left: 10%;
     width: 14vw;
   }
   .cita_motivacional {
@@ -865,62 +955,69 @@ a {
     width: 1vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion {
-    margin-top: 5rem;
-    width: 80vw;
+    width: 68vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
-    width: 38vw;
-    margin-left: 4rem;
+    margin-left: 30%;
+    width: 30vw;
   }
-  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion input {
-    font-size: 15px;
-  }
-  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion label {
-    font-size: 18px;
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
+    width: 68vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
-    font-size: 27px;
+    font-size: 31px;
   }
-  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion input {
-    width: 60vw;
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
+    width: 33vw;
+    font-size: 20px;
   }
-  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .olvide_contraseña {
-    margin-left: 2.2rem;
-  }
-  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .boton_cuenta_nueva {
-    width: 28vw;
-  }
-  .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
-    width: 24vw;
-  }
-  .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva {
-    width: 35vw;
-    font-size: 15px;
-  }
-  .fondo_apertura {
-    width: 80vw;
-  }
-  .fondo_apertura .logo_crear_cuenta {
-    width: 30vw;
-    margin-top: 3rem;
-  }
-  .fondo_apertura .apertura .apertura h1 {
-    font-size: 30px;
-  }
-  .fondo_apertura .apertura .apertura .form-control {
-    width: 70vw;
-  }
-  .fondo_apertura .apertura .apertura .form-check-label {
-    width: 40vw;
-  }
-  .fondo_apertura .apertura .apertura .form-label {
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
+    width: 45vw;
     font-size: 18px;
   }
-  .fondo_apertura .apertura .apertura .form-select {
+  .inicio_de_sesion .fondo_inicio_sesion .form-check {
+    width: 54vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
+    width: 17vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .olvide_contraseña {
+    margin-left: 23%;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .boton_cuenta_nueva {
+    width: 25vw;
+  }
+  .crear_cuenta form .fondo_apertura {
+    width: 80vw;
+  }
+  .crear_cuenta form .fondo_apertura .logo_crear_cuenta {
+    width: 40vw;
+    margin-top: 3rem;
+    margin-left: 28%;
+  }
+  .crear_cuenta form .fondo_apertura .apertura {
+    width: 80vw;
+  }
+  .crear_cuenta form .fondo_apertura .apertura h1 {
+    font-size: 33px;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-label {
+    font-size: 21px;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-check {
+    margin-left: 0.5rem;
     width: 40vw;
   }
-  .fondo_apertura .apertura .apertura .boton_cuenta {
-    width: 14vw;
+  .crear_cuenta form .fondo_apertura .apertura .form-check .form-check-label {
+    width: 40vw;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .form-control, .crear_cuenta form .fondo_apertura .apertura .form-select {
+    width: 63vw;
+    font-size: 18px;
+  }
+  .crear_cuenta form .fondo_apertura .apertura .boton_cuenta {
+    margin-left: 3%;
+    width: 24vw;
   }
   .titulo_todas_las_asesorias {
     width: 80%;

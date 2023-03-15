@@ -115,87 +115,189 @@
 
     }
     // inicio de sesion
+    .inicio_de_sesion {
 
+        .fondo_inicio_sesion{
+            width: 40vw;
 
+            .logo_inicio{
+                margin-left: 32%;
 
-// CREAR CUENTA
-
-    .fondo_apertura {
-        
-        .form-control, .form-select {
-            width: 18vw;
             }
+
+            .formulario_inicio_sesion{
+                width: 40vw;
+
+                h1{
+
+                }
+                .form-label{
+                    width: 25vw;
+
+                }
+                .form-control{
+                    width: 25vw;
+
+                }
+            }
+
+            .form-check{
+                width: 32vw;
+
+                .boton_cuenta{
+                    width: 9vw;
+
+                }
+
+            }
+
+            .olvide_contraseña {
+
+            }
+            
+            .boton_cuenta_nueva{
+                width: 12vw;
+
+            }
+
+
         }
 
+    }
+// CREAR CUENTA
+   .crear_cuenta{
 
-
+            .fondo_apertura {
+                width: 40vw;
+    
+                .logo_crear_cuenta{
+                    margin-left: 32%;
+    
+                }
+                .apertura{
+                    width: 40vw;
+    
+                    .form-check{ 
+                        margin-left:0.5rem ;}
+    
+                    .form-control, .form-select {
+                        width: 25vw;
+                        }
+                    .boton_cuenta{
+                        margin-left: 10%;
+                        width: 10vw;
+    
+                        }
+                    }
+                
+                }
+            
+        }
+    
 }
 
 @media screen and (max-width: 768px)
 {
 
-    
-// PAGINA DE INICIO DE SESION
-    .fondo_inicio_sesion {
-        margin-top: 3rem;
-        width: 50vw;
+    // inicio de sesion
+    .inicio_de_sesion {
 
+        .fondo_inicio_sesion{
+            width: 48vw;
 
-        .logo_inicio{
-            width: 30vw;
-            margin-left: 4rem;
+            .logo_inicio{
+                margin-left: 32%;
+                width: 20vw;
+
+            }
+
+            .formulario_inicio_sesion{
+                width: 48vw;
+
+                h1{
+                    font-size: 37px;
                 }
 
-        .formulario_inicio_sesion h1{
-            font-size: 30px;
-            }      
+                .form-label{
+                    width: 25vw;
+                    font-size: 22px;
+                }
 
-        .formulario_inicio_sesion input{
-            width: 30vw;
+                .form-control{
+                    width: 31vw;
+                 }
             }
-        .form-check .boton_cuenta{
-            width: 19vw;
-            }    
+
+            .form-check{
+                width: 38vw;
+
+                .boton_cuenta{
+                    width: 11vw;
+                 }
+
+            }
+
+            .olvide_contraseña {
+
+            }
+            
+            .boton_cuenta_nueva{
+                width: 16vw;
+
+            }
         }
-
-        .olvide_contraseña{
-            margin-left: 4rem;
-
-        }
-
-        .boton_cuenta_nueva {
-            width: 20vw;
-        }
-
+    }
 
     /// PAGINA CREAR CUENTA//
-    .fondo_apertura{
-        width: 59vw;
-
-        .logo_crear_cuenta{
-            width: 20vw;
-            margin-top: 3rem;
-            margin-left: 3rem;
-        }
-        .apertura{
-            .apertura h1{
-                font-size:20px ;
-            }
-            .form-control {
-                width: 20vw;
-            }
+  
     
-            .form-check-label{
-                width: 20vw;
-            }
+        .crear_cuenta{
+
+            form{
+                .fondo_apertura {
+                    width: 50vw;
+        
+                    .logo_crear_cuenta{
+                        width: 20vw;
+                    margin-top: 3rem;
+                    margin-left: 32%;
+        
+                    }
+                    .apertura{
+                        width: 50vw;
     
-            .boton_cuenta {
-                width: 14vw;
+                        h1{
+                            font-size:38px ;
+                        }
+        
+                        .form-check{ 
+                            margin-left:0.5rem ;
+                            width: 30vw;
+                        
+                            .form-check-label{
+                                width: 32vw;
+                            }
+                        }
+        
+                        .form-control, .form-select {
+                            width: 34vw;
+                            }
+                        .boton_cuenta{
+                            margin-left: 10%;
+                            width: 14vw;
+        
+                            }
+                        }
+                    
+                    }
+
             }
 
+            
+            
         }
-       
-    }
+
+    
 
     
     /// PAGINA SOBRE NOSOTROS//
@@ -344,56 +446,106 @@
         height: 20%;
     }
 
-//PAGINA DE INICIO DE SESION
     
+ // inicio de sesion
+ .inicio_de_sesion {
 
-    .inicio_de_sesion .olvide_contraseña {
-        margin-left: 4rem;
+    .fondo_inicio_sesion{
+        width: 54vw;
+
+        .logo_inicio{
+            margin-left: 30%;
+            width: 24vw;
+
+        }
+
+        .formulario_inicio_sesion{
+            width: 54vw;
+
+            h1{
+                font-size: 33px;
+            }
+
+            .form-label{
+                width: 25vw;
+                font-size: 22px;
+            }
+            
+            .form-control{
+                width: 38vw;
+             }
+        }
+
+        .form-check{
+            width: 42vw;
+
+            .boton_cuenta{
+                width: 14vw;
+             }
+
+        }
+
+        .olvide_contraseña {
+            margin-left: 23%;
+
+        }
+        
+        .boton_cuenta_nueva{
+            width: 20vw;
+
+            }
+        }
     }
-
-    .fondo_inicio_sesion .logo_inicio{
-        width: 30vw;
-        margin-left: 15rem;
-    }
-        .formulario_inicio_sesion h1{
-            font-size: 30px;
-        }
-
-        .formulario_inicio_sesion input{
-            width: 50vw;
-        }
-
-        .formulario_inicio_sesion .form-check .boton_cuenta{
-            width: 19vw;
-        }
-
-        .formulario_inicio_sesion .boton_cuenta_nueva {
-            width: 28vw;
-        }
-
         
 
-//PAGINA DE APERTURA DE CUENTA
+/// PAGINA CREAR CUENTA//
+  
+    
+.crear_cuenta{
 
-    .fondo_apertura{
-        width: 75vw;
+    form{
+        .fondo_apertura {
+            width: 68vw;
 
-        .logo_crear_cuenta{
-            width: 25vw;
+            .logo_crear_cuenta{
+                width: 30vw;
             margin-top: 3rem;
+            margin-left: 28%;
+
             }
-        .form-control {
-            width: 55vw;
+            .apertura{
+                width: 68vw;
+
+                h1{
+                    font-size:35px ;
+                }
+
+                .form-check{ 
+                    margin-left:0.5rem ;
+                    width: 40vw;
+                
+                    .form-check-label{
+                        width: 32vw;
+                    }
+                }
+
+                .form-control, .form-select {
+                    width: 53vw;
+                    }
+                .boton_cuenta{
+                    margin-left: 10%;
+                    width: 14vw;
+
+                    }
+                }
+            
             }
 
-        .form-check-label{
-            width: 40vw;
         }
-        .apertura .boton_cuenta {
-            width: 14vw;
-        }
+
+    
+    
     }
-
 
 //PAGINA SOBRE NOSOTROS
 
@@ -544,94 +696,111 @@
 
     }
     
-///PAGINA DE INICION DE SESION
+// inicio de sesion
+.inicio_de_sesion {
 
-    .inicio_de_sesion {
+    .fondo_inicio_sesion{
+        width: 68vw;
 
-        
-
-        .fondo_inicio_sesion{
-            margin-top: 5rem;
-            width: 80vw;
-
-            .logo_inicio{
-                width: 38vw;
-                margin-left: 4rem;
-                }
-        
-            .formulario_inicio_sesion input{
-                font-size: 15px;
-            }
-            .formulario_inicio_sesion label{
-                font-size: 18px;
-            }
-
-            .formulario_inicio_sesion h1{
-            font-size: 27px;
-            }
-
-            .formulario_inicio_sesion input{
-            width: 60vw;
-            }
-
-            .formulario_inicio_sesion .olvide_contraseña{
-        margin-left: 2.2rem;
-            }
-
-            .formulario_inicio_sesion .boton_cuenta_nueva {
-            width: 28vw;
-            }
-            .form-check {
-                
-            }
-            .form-check .boton_cuenta {
-                width: 24vw;
-            }
-
-            .boton_cuenta_nueva{
-                width: 35vw;
-                font-size: 15px;
-            }
-
+        .logo_inicio{
+            margin-left: 30%;
+            width: 30vw;
 
         }
 
+        .formulario_inicio_sesion{
+            width: 68vw;
+
+            h1{
+                font-size: 31px;
+            }
+
+            .form-label{
+                width: 33vw;
+                font-size: 20px;
+            }
+            
+            .form-control{
+                width: 45vw;
+                font-size: 18px;
+             }
+        }
+
+        .form-check{
+            width: 54vw;
+
+            .boton_cuenta{
+                width: 17vw;
+             }
+
+        }
+
+        .olvide_contraseña {
+            margin-left: 23%;
+
+        }
+        
+        .boton_cuenta_nueva{
+            width: 25vw;
+
+            }
+        }
     }
 //PAGINA APERTURA CUENTA
 
-    .fondo_apertura{
-        width: 80vw;
+    /// PAGINA CREAR CUENTA//
+  
+    
+.crear_cuenta{
 
-        .logo_crear_cuenta{
-            width: 30vw;
+    form{
+        .fondo_apertura {
+            width: 80vw;
+
+            .logo_crear_cuenta{
+                width: 40vw;
             margin-top: 3rem;
-        }
-
-        .apertura{
-            .apertura h1 {
-                font-size: 30px;
-            }
-    
-            .apertura .form-control {
-                width: 70vw;
-            }
-    
-            .apertura .form-check-label{
-                width: 40vw;
-            }
-            .apertura .form-label{
-                font-size: 18px;
-            }
-            .apertura .form-select{
-                width: 40vw;
-            }
-            .apertura .boton_cuenta {
-                width: 14vw;
-            }
+            margin-left: 28%;
 
             }
-        
-        }
+            .apertura{
+                width: 80vw;
+
+                h1{
+                    font-size:33px ;
+                }
+
+                .form-label {
+                    font-size: 21px;
+                }
+                .form-check{ 
+                    margin-left:0.5rem ;
+                    width: 40vw;
+                
+                    .form-check-label{
+                        width: 40vw;
+                    }
+                }
+
+                .form-control, .form-select {
+                    width: 63vw;
+                    font-size: 18px;
+
+                    }
+                .boton_cuenta{
+                    margin-left: 3%;
+                    width: 24vw;
+
+                    }
+                }
+            
+            }
+
+    }
+
+    
+    
+}
 
 // PAGINA CATEGORIAS
 

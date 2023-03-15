@@ -1,5 +1,5 @@
 .inicio_de_sesion{
-    background-image: url(../../img/pexels-fauxels-3183198.jpg);
+    background-image: url(../img/pexels-fauxels-3183198.jpg);
     background-size: cover;
 
     .fondo_inicio_sesion{
@@ -13,21 +13,31 @@
         .logo_inicio{
             padding-top: 2rem;
             width: 16vw;
-            margin-left: 8rem;
+            margin-left: 27%;
             
         }
+        .form-check {
+            width: 25vw;
 
+            .boton_cuenta{
+                margin-left:12% ;
+                width: 6vw;}
+
+        }
+        
         .formulario_inicio_sesion h1{
             font-size: 40px; 
             margin-top: 15%;
             margin-bottom: 2rem;
             }
-        .formulario_inicio_sesion label, input{
+        .formulario_inicio_sesion .form-label, .form-control{
             font-size: 20px;
         }
-
-        .formulario_inicio_sesion input {
-            width: 60%;
+        .formulario_inicio_sesion .form-label{
+            font-weight: bold;
+        }
+        .formulario_inicio_sesion .form-control {
+            width: 63%;
         }
         
         .olvide_contraseña{

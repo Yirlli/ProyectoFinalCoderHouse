@@ -1,10 +1,10 @@
 .crear_cuenta {
-    background-image: url(../../img/pexels-fauxels-3183198.jpg);
+    background-image: url(../img/pexels-fauxels-3183198.jpg);
     background-size: cover;
 
     .fondo_apertura{
     background-color: $colorSecundario;
-    border-radius: 40%;
+    border-radius: 30%;
     margin-top: 6%;
     margin-bottom: 8%;
     box-shadow: $colorSombraContainer;
@@ -12,29 +12,31 @@
         .logo_crear_cuenta{
         width: 16vw;
         margin-top: 3vw;
-        margin-left: 6vw;
+        margin-left: 9vw;
             }
 
-    .apertura{
+        .apertura{
         gap:1rem;
         margin-top: 5rem;
         align-items: center;
+        width: 33vw;
 
-        .apertura h1{font-size: 25px;
+            .apertura h1{
+                font-size: 25px;
             text-align: center;
             margin-bottom: 10%; 
-        }
-        .form-label {
+            }
+            .form-label {
             font-size: 23px;
             font-weight: bold;
-        }
+            }
 
-        .form-control{
+            .form-control{
             font-size: 20px;
-        }
+            }
 
-        .form-control, .form-select {
-            width: 60%;
+            .form-control, .form-select {
+            width: 65%;
                 }
             
                 .form-check{

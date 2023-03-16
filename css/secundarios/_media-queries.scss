@@ -99,8 +99,10 @@
             }
         }
      /// PAGINA SOBRE NOSOTROS   
-    .about_me img {
-        width:5vw;
+     .about_company .sobre_nosotros .about_me {
+        width:25vw;
+        height: 35vh;
+        margin-top: 10%;
     }
 
 // PAGINA CATEGORIAS
@@ -136,7 +138,7 @@
 
                 }
                 .form-control{
-                    width: 25vw;
+                    width: 28vw;
 
                 }
             }
@@ -152,10 +154,13 @@
             }
             
             .boton_cuenta_nueva{
-                width: 12vw;
+                width: 14vw;
 
             }
 
+            .olvide_contraseña{
+                margin-left: 22%;
+            }
         }
 
     }
@@ -163,20 +168,26 @@
    .crear_cuenta{
 
             .fondo_apertura {
-                width: 40vw;
+                width: 50vw;
     
                 .logo_crear_cuenta{
                     margin-left: 32%;
+                    width: 20vw;
+                    margin-top: 5vw;
     
                 }
                 .apertura{
-                    width: 40vw;
+                    width: 50vw;
     
                     .form-check{ 
-                        margin-left:0.5rem ;}
+                        margin-left:0.5rem ;
+                    
+                    .form-check{
+                        width: 28vw;
+                    }}
     
                     .form-control, .form-select {
-                        width: 25vw;
+                        width: 33vw;
                         }
                     .boton_cuenta{
                         margin-left: 10%;
@@ -250,16 +261,16 @@
 
             form{
                 .fondo_apertura {
-                    width: 50vw;
+                    width: 60vw;
         
                     .logo_crear_cuenta{
-                        width: 20vw;
+                        width: 28vw;
                     margin-top: 3rem;
-                    margin-left: 32%;
+                    margin-left: 28%;
         
                     }
                     .apertura{
-                        width: 50vw;
+                        width: 60vw;
     
                         h1{
                             font-size:38px ;
@@ -275,7 +286,7 @@
                         }
         
                         .form-control, .form-select {
-                            width: 34vw;
+                            width: 42vw;
                             }
                         .boton_cuenta{
                             margin-left: 10%;
@@ -665,12 +676,12 @@
 
 // PAGINA INDEX
     .index{
-        padding-bottom: 10%;
+        padding-bottom: 33%;
     
 
         .titulo_principal .sombra_titulo1{
             font-size: 33px;
-            margin-top:2%;
+            margin-top:15%;
             width: 74%;
           padding: 3%;
             
@@ -683,36 +694,42 @@
         
 
         .titulo_principal .boton_acceder{
-            width: 35vw;
+            width: 40vw;
             margin-top: 25%;
                 }
         }
     .categorias_titulo h2{
-        font-size: 45px;
+        font-size: 40px;
     }
     .container_categorias .tipos_de_categorias .imagenes_categorias {
-        width: 65vw;
+        width: 300px;
         
+    }
+
+    .container_categorias .tipos_de_categorias h3{
+        font-size: 28px;
     }
     .grid-container .accordion-body img {
         width: 50vw;
     }
 
     .grid-container .grid-acordion h3{
-        font-size: 45px;
+        font-size: 40px;
+        margin-top: 15%;
     }
     .accordion{
         width: 80%;
         margin-left: 10%
     }
     .grid-container .grid-carusel h3 {
-        font-size: 45px;
+        font-size: 40px;
+        
     }
     .grid-container .carousel-inner {
         padding-right: 100%;
     }
     .grid-container .carousel-item img {
-        width: 90vw;
+        width: 330px;
         margin-left: 1.2rem;
     }
 //SUBSCRICION DE BOLETIN
@@ -818,7 +835,7 @@
         }
 
         .olvide_contraseña {
-            margin-left: 33%;
+            margin-left: 15%;
             width: 53vw;
 
         }

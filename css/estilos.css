@@ -135,17 +135,6 @@ form {
   padding-bottom: 2%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.container_categorias .tipos_de_categorias {
-  animation: scale-up-center 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-@keyframes scale-up-center {
-  0% {
-    transform: scale(0.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 .container_categorias .tipos_de_categorias h3 {
   margin-top: 2rem;
   font-size: 20px;
@@ -155,15 +144,11 @@ form {
   width: 15vw;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 2s;
 }
-.container_categorias .tipos_de_categorias:nth-child(1) {
-  animation-delay: 0.6s;
-}
-.container_categorias .tipos_de_categorias:nth-child(2) {
-  animation-delay: 1.2s;
-}
-.container_categorias .tipos_de_categorias:nth-child(3) {
-  animation-delay: 1.8s;
+.container_categorias .tipos_de_categorias .imagenes_categorias:hover {
+  height: 400px;
+  width: 400px;
 }
 
 .tipos_de_categorias h3 {
@@ -336,8 +321,7 @@ form {
   height: 200px;
   width: 300px;
 }
-
-.todas_las_categorias {
+.todas_las_asesorias .todas_las_categorias {
   margin-top: 8%;
   justify-content: center;
   margin-left: 25%;
@@ -459,6 +443,26 @@ form {
 
 .volver {
   padding: 5%;
+}
+
+.equipo-anto {
+  background-color: rgba(170, 209, 209, 0.788);
+}
+
+.equipo-sele {
+  background-color: rgba(74, 173, 173, 0.788);
+}
+
+.equipo-marie {
+  background-color: rgba(40, 78, 78, 0.788);
+}
+
+.equipo-andres {
+  background-color: rgba(79, 114, 114, 0.788);
+}
+
+.equipo-victor {
+  background-color: rgba(148, 180, 180, 0.788);
 }
 
 .boton_cuenta {
@@ -1269,7 +1273,8 @@ form {
     margin-top: 40%;
   }
   .container_categorias .tipos_de_categorias .imagenes_categorias {
-    width: 70vw;
+    width: 60vw;
+    height: 65vw;
   }
   .categorias_titulo h2 {
     font-size: 40px;
@@ -1283,7 +1288,7 @@ form {
     padding-bottom: 20%;
   }
   .grid-container .grid-acordion {
-    width: 70%;
+    width: 100%;
   }
   .grid-container .grid-acordion-body img {
     width: 50vw;

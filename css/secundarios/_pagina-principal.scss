@@ -4,9 +4,8 @@
 
     h2{
     font-size: 52px;
-    
+        }
     }
-}
 
 .container_categorias{
     background-color: $colorContainer;
@@ -15,29 +14,7 @@
     box-shadow: $colorSombraContainer;
 
     .tipos_de_categorias{
-        -webkit-animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
-	    animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
-        
-            @-webkit-keyframes scale-up-center {
-                0% {
-                  -webkit-transform: scale(0.5);
-                          transform: scale(0.5);
-                    }
-                100% {
-                  -webkit-transform: scale(1);
-                          transform: scale(1);
-                    }
-              }
-              @keyframes scale-up-center {
-                0% {
-                  -webkit-transform: scale(0.5);
-                          transform: scale(0.5);
-                    }
-                100% {
-                  -webkit-transform: scale(1);
-                          transform: scale(1);
-                    }
-                }
+      
         h3{
             margin-top: 2rem;
             font-size: 20px;
@@ -48,18 +25,16 @@
             width: 15vw;
             border-radius: 15%;
             box-shadow: $colorSombraImagenes;
-        }
+            transition: 2s;
 
+            &:hover {
+                height: 400px;
+                width: 400px;
+                }
+            }
 
+        }   
     }
-
-    @for $imagenes from 1 through 3{
-        .tipos_de_categorias:nth-child(#{$imagenes}){
-            animation-delay: $imagenes * 0.6s;
-        }
-
-    }
-}
 
     .tipos_de_categorias h3{
         margin-top: 2rem;

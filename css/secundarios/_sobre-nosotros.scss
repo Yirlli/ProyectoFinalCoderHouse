@@ -144,3 +144,18 @@
 .volver{
     padding: 5%;
 }
+
+$card: (
+    anto: rgba(170, 209, 209, 0.788),
+    sele: rgba(74, 173, 173, 0.788),
+    marie: rgba(40, 78, 78, 0.788),
+    andres: rgba(79, 114, 114, 0.788),
+    victor: rgba(148, 180, 180, 0.788)
+);
+
+@each $card_miembros, $color_miembros in $card {
+    .equipo-#{$card_miembros}{
+        background-color: $color_miembros;
+    }
+
+}

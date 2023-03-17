@@ -57,7 +57,7 @@ form {
 .barra_navegacion .header .header-right .navegacion .nav_superior .menu {
   list-style: none;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 .barra_navegacion .header .header-right .navegacion .nav_inferior {
   padding-bottom: 1.3rem;
@@ -66,14 +66,14 @@ form {
 .barra_navegacion .header .header-right .navegacion .nav_inferior .menu {
   list-style: none;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 .barra_navegacion .header .header-right .navegacion .nav-bar {
   gap: 6rem;
 }
 .barra_navegacion .header .header-right .navegacion .nav-bar #pais {
-  width: 10rem;
-  font-size: 30px;
+  width: 8rem;
+  font-size: 23px;
 }
 .barra_navegacion .header .header-right .navegacion:nth-child(1) {
   animation-delay: 1s;
@@ -140,15 +140,15 @@ form {
   font-size: 20px;
 }
 .container_categorias .tipos_de_categorias .imagenes_categorias {
-  height: 28vh;
-  width: 15vw;
+  height: 25vh;
+  width: 18vw;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: 2s;
 }
 .container_categorias .tipos_de_categorias .imagenes_categorias:hover {
-  height: 400px;
-  width: 400px;
+  height: 30vh;
+  width: 25vh;
 }
 
 .tipos_de_categorias h3 {
@@ -185,7 +185,7 @@ form {
   font-size: 52px;
 }
 .grid-container .carousel-inner {
-  padding-right: 33%;
+  padding-right: 35%;
 }
 .grid-container .carousel-item img {
   width: 500px;
@@ -414,7 +414,6 @@ form {
   width: 13vw;
   border-radius: 50%;
   margin-bottom: 10%;
-  margin-left: 10%;
   align-self: center;
 }
 .about_company .sobre_nosotros .container_equipo .equipo p {
@@ -430,14 +429,14 @@ form {
 .about_company .sobre_nosotros .container_equipo .last img {
   width: 15vw;
   border-radius: 50%;
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   align-self: center;
 }
 .about_company .sobre_nosotros .container_equipo .last p {
   width: 50%;
   font-size: 18px;
   text-align: justify;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   align-self: center;
 }
 
@@ -1026,7 +1025,7 @@ form {
   }
   .container_pie_de_pagina .pie_de_pagina {
     gap: 1.5rem;
-    width: 40vw;
+    width: 25vw;
   }
   .container_pie_de_pagina .pie_de_pagina .footer {
     width: auto;
@@ -1042,7 +1041,7 @@ form {
     width: 8vw;
   }
   .container_pie_de_pagina .pie_de_pagina .mobile {
-    width: 40vw;
+    width: 0;
   }
   .container_pie_de_pagina .pie_de_pagina .footer_remove {
     display: none;

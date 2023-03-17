@@ -21,15 +21,15 @@
         }
 
         .imagenes_categorias {
-            height: 28vh;
-            width: 15vw;
+            height: 25vh;
+            width: 18vw;
             border-radius: 15%;
             box-shadow: $colorSombraImagenes;
             transition: 2s;
 
             &:hover {
-                height: 400px;
-                width: 400px;
+                height: 30vh;
+                width: 25vh;
                 }
             }
 
@@ -77,7 +77,7 @@
             font-size: 52px;    
         }
         .carousel-inner{
-            padding-right: 33%;
+            padding-right: 35%;
             }
         .carousel-item img {
             width: 500px;

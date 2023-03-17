@@ -243,10 +243,6 @@
 
             }
 
-            .olvide_contraseña {
-
-            }
-            
             .boton_cuenta_nueva{
                 width: 16vw;
 
@@ -361,13 +357,20 @@
     .grid-container .accordion {
         width:62%;
         margin-left: 20% ;
+
+        h3{
+            font-size:45px ;
+        }
     }
     .grid-container .carousel-item img {
-        width: 60%;
+        width: 220px;
     }
 
+    .grid-container .grid-carusel h3{
+        font-size: 45px;
+    }
     .grid-container .carousel-inner {
-        padding-right: 60% ;
+        padding-right: 50% ;
     }
     
 //SUBSCRIPCION DE BOLETIN
@@ -400,36 +403,43 @@
 }
 
 // FOOTER
+.container_pie_de_pagina{
 
-.pie_de_pagina{
-    gap:1.5rem;
-    width:40vw;
-
-    .logo_footer{
-        width: 30vw;
-        margin-top: 1rem;
-    }
-
-    .redes{
-        margin-left: 0.25rem;
-
-        img{
-            width: 10vw;
-            padding-bottom: 1.2rem;
+    .pie_de_pagina{
+        gap:1.5rem;
+        width:40vw;
+    
+        .footer{
+            width: auto;
+    
+            .logo_footer{
+                width: 30vw;
+                margin-top: 1rem;
+            }
+    
+        }  
+        
+        .redes{
+            margin-left: 0.25rem;
+    
+            img{
+                width: 10vw;
+                padding-bottom: 1.2rem;
+                }
+            }
+        .mobile{
+            width: 50vw;
+            font-size: 20px;
+            }
+    
+       
+        .footer_remove{
+            display: none;
+            width: 1vw;
             }
         }
-    .mobile{
-        width: 20vw;
-        }
 
-    .footer{
-        width: auto;
-    }  
-    .footer_remove{
-        display: none;
-        width: 1vw;
-        }
-    }
+}
 
 //PAGINA DE CATEGORIAS
     .barra_lateral{
@@ -585,10 +595,6 @@
             }
             .mision_y_vision{
 
-                h2{
-
-                
-                }
 
                 p{
                     font-size: 22px;
@@ -600,9 +606,6 @@
 
             .valores{
 
-                h2{
-
-                }
 
                 p{
                     font-size: 22px;
@@ -611,47 +614,10 @@
                 }
             }
 
-            .seccion_equipo{
-
-                .titulo_equipo{
-
-                }
-
-                .container_equipo{
-
-                    .equipo{
-
-                        img{
-
-                        }
-
-                        p{
-                            
-
-                        }
-                    }
-
-                    .last{
-
-                        img{
-
-                        }
-
-                        p{
-
-                        }
-                    }
-
-                }
-
-
-            }
+            
         }
 
-        .volver{
-
-        }
-
+        
     }
 
 
@@ -784,7 +750,7 @@
             }
     
             .mobile{
-                width: 20vw;
+                width: 40vw;
             }
     
             .footer_remove{

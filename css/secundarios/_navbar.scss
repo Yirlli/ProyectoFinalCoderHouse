@@ -5,9 +5,10 @@
     .header {
     
 
-        img {align-self: center;
+        img {
+            align-self: center;
             width: 16vw;
-    margin-left: 2rem;}
+            margin-left: 2rem;}
 
         .burger{
             display: none;
@@ -15,37 +16,82 @@
          
             .header-right{
                 padding-right: 4rem;
-                
-                .nav_superior{
-                    
-                    padding-top: 4rem;
 
-                    .menu {
-                        list-style: none;
-                        font-weight: bold;
-                        font-size: 30px;
-                       }
+                .navegacion{
 
-                }
-                .nav_inferior {
-                    padding-bottom: 1.3rem;
-                    padding-top: 2rem;
-
-                    .menu {
-                        list-style: none;
-                        font-weight: bold;
-                        font-size: 30px;
-                       }
-
-                }
-                .nav-bar{gap: 6rem;
-                    #pais{
-                         width: 10rem;
-                         font-size: 30px;
-
+                    -webkit-animation: scale-up-br 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	                animation: scale-up-br 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                        
+                    @-webkit-keyframes scale-up-br {
+                        0% {
+                          -webkit-transform: scale(0.5);
+                                  transform: scale(0.5);
+                          -webkit-transform-origin: 100% 100%;
+                                  transform-origin: 100% 100%;
                         }
+                        100% {
+                          -webkit-transform: scale(1);
+                                  transform: scale(1);
+                          -webkit-transform-origin: 100% 100%;
+                                  transform-origin: 100% 100%;
+                        }
+                      }
+                      @keyframes scale-up-br {
+                        0% {
+                          -webkit-transform: scale(0.5);
+                                  transform: scale(0.5);
+                          -webkit-transform-origin: 100% 100%;
+                                  transform-origin: 100% 100%;
+                        }
+                        100% {
+                          -webkit-transform: scale(1);
+                                  transform: scale(1);
+                          -webkit-transform-origin: 100% 100%;
+                                  transform-origin: 100% 100%;
+                        }
+                      }
+
+                    .nav_superior{
+                        padding-top: 4rem;
+
+                        .menu {
+                            list-style: none;
+                            font-weight: bold;
+                            font-size: 30px;
+                           }
                     }
+                    .nav_inferior {
+                        padding-bottom: 1.3rem;
+                        padding-top: 2rem;
+                        
+                        .menu {
+                            list-style: none;
+                            font-weight: bold;
+                            font-size: 30px;
+                           }
+                    }
+                    .nav-bar{
+                        gap: 6rem;
+    
+                        #pais{
+                             width: 10rem;
+                             font-size: 30px
+                            }
+                    }
+                        
+                }
+
+                @for $navegacion from 1 through 2{
+                    .navegacion:nth-child(#{$navegacion}){
+                        animation-delay: $navegacion * 1s;
+                    }
+            
+                    }
+                
                 }
             }
         }
+              
+        
+
 

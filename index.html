@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     
     <link rel="stylesheet" href="./css/estilos.css">
+    
     <title>Cabo Codera Consultores</title>
     
 </head>
 <body>
     <header class="barra_navegacion">
         <section class="header justify-content-between d-flex">
-            <img src="./img/Logotipo.png" alt="">
+            <img src="./img/Logotipo.png" alt="logo_empresa">
             <div class="dropdown burger">
               <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-view-list" viewBox="0 0 16 16">
@@ -30,12 +31,12 @@
               </ul>
             </div>
             <div class="header-right flex-column">
-                <nav>
+                <nav class="navegacion">
                     <ul class="nav-bar d-flex nav_superior">
-                        <li class="menu"> <a href="./pages/iniciasesion.html">Inicia Sesión</a></li>
-                        <li class="menu"><a href="./pages/crearcuenta.html">Crear Cuenta</a></li>
+                        <li class="menu" > <a href="./pages/iniciasesion.html">Inicia Sesión</a></li>
+                        <li class="menu " ><a href="./pages/crearcuenta.html">Crear Cuenta</a></li>
                         
-                        <select name="pais" id="pais">
+                        <select name="pais" id="pais" data-aos="fade-up-left">
                             <option value="Chile">Chile</option>
                             <option value="Peru">Peru</option>
                             <option value="Colombia">Colombia</option>
@@ -46,11 +47,11 @@
                     </ul>
 
                 </nav>
-                <nav>
+                <nav class="navegacion">
                     <ul class="nav-bar nav_inferior d-flex">
-                        <li class="menu"> <a href="./index.html">Home</a></li>
+                        <li class="menu" >  <a href="./index.html">Home</a></li>
                         
-                        <div class="dropdown">
+                        <div class="dropdown" >
                             <a class="btn dropdown-toggle menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Categorías
                             </a>
@@ -62,7 +63,7 @@
                               <li><a class="dropdown-item" href="./pages/categorias.html">Ventas e inmobiliarias</a></li>
                             </ul>
                           </div>
-                        <li class="menu"><a href="#">Contacto</a></li>
+                        <li class="menu" data-aos="fade-up-left"><a href="#">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -109,7 +110,7 @@
                   </h2>
                   <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body d-flex flex-column">
-                      <img src="./img/Mariaf.jpg" alt="">
+                      <img src="./img/Mariaf.jpg" alt="foto_maria">
                       <p><strong>Maria Fernanda Segovia </strong></p>
                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum dignissimos, minima vel explicabo mollitia assumenda quasi officiis consequuntur sint, sapiente libero excepturi enim nobis recusandae qui fugiat minus nihil tempore.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, unde atque dignissimos at nam, est recusandae vero explicabo fugit doloremque nesciunt, laborum dolorem perferendis mollitia reiciendis voluptatibus blanditiis! Eligendi, ab?
@@ -126,7 +127,7 @@
                   </h2>
                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body d-flex flex-column">
-                      <img src="./img/Gregorio.jpg" alt="">
+                      <img src="./img/Gregorio.jpg" alt="foto_gregorio">
                       <p><strong>Gregorio Tuck </strong></p>
                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum dignissimos, minima vel explicabo mollitia assumenda quasi officiis consequuntur sint, sapiente libero excepturi enim nobis recusandae qui fugiat minus nihil tempore.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, unde atque dignissimos at nam, est recusandae vero explicabo fugit doloremque nesciunt, laborum dolorem perferendis mollitia reiciendis voluptatibus blanditiis! Eligendi, ab?
@@ -143,7 +144,7 @@
                   </h2>
                   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body d-flex flex-column">
-                      <img src="./img/lorenza.jpg" alt="">
+                      <img src="./img/lorenza.jpg" alt="foto_lorenza">
                       <p><strong>Lorenza Fernandez </strong></p>
                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum dignissimos, minima vel explicabo mollitia assumenda quasi officiis consequuntur sint, sapiente libero excepturi enim nobis recusandae qui fugiat minus nihil tempore.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, unde atque dignissimos at nam, est recusandae vero explicabo fugit doloremque nesciunt, laborum dolorem perferendis mollitia reiciendis voluptatibus blanditiis! Eligendi, ab?
@@ -158,16 +159,14 @@
               <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner d-flex justify-content-center">
                   <div class="carousel-item active">
-                    <img src="./img/aws.png" class="d-block" alt="...">
+                    <img src="./img/aws.png" class="d-block" alt="imagen_aws">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/1200px-Cencosud_logo.svg.png" class="d-block" alt="...">
+                    <img src="./img/1200px-Cencosud_logo.svg.png" class="d-block" alt="imagen_cencosud">
                   </div>
+                 
                   <div class="carousel-item">
-                    <img src="./img/MLRE.png" class="d-block" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/otic.png" class="d-block" alt="...">
+                    <img src="./img/otic.png" class="d-block" alt="imagen_otic">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -222,7 +221,8 @@
                  
             </div>
     </footer>
-     
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
-</body>
+    
+  </body>
 </html>

@@ -10,9 +10,10 @@
 
         .footer{
             width: 18vw;
+            font-size: 23px;
 
             .logo_footer{
-                width: 8vw;
+                width: 10vw;
                 margin-top: 3rem;
                 }
             }
@@ -20,6 +21,10 @@
             margin-right: 1rem;
             margin-left: 3.5rem;
             list-style: none;
+
+            img{
+                width: 2.5vw;
+            }
         }    
     }
 }

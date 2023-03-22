@@ -567,7 +567,7 @@
 
     .about_company{
 
-        .sobre_nosotros{
+        .sobre_nosotros{ margin:3%;
 
             .titulo_conocenos{
                 font-size: 38px;
@@ -582,18 +582,27 @@
                 }
             }
 
-            .cita_motivacional{
-                font-size: 24px;
+            .centro{ flex-direction: column;
+
+                .cita_motivacional{
+                    font-size: 24px;
+                    width: 85%;
+                    margin-left: 5%;
+                    text-align: justify;
+            
+                }
+                .about_me{
+                width: 45vw;
+                align-self: center;
+                
+
+                }
 
                 
             }
-            .about_me{
-                margin-top: 18%;
-                width: 35vw;
-                height: 45vw;
-
-            }
+             
             .mision_y_vision{
+                width: 90%;
 
 
                 p{
@@ -605,11 +614,17 @@
             }
 
             .valores{
+                width: 90%;
 
 
                 p{
                     font-size: 22px;
                     line-height: 1.6rem;
+
+                }
+
+                ul li{font-size: 22px;
+                    text-align: justify;
 
                 }
             }
@@ -708,7 +723,8 @@
         align-items: center;    
 
         h2{
-            font-size: 20px;   
+            font-size: 18px;   
+            margin-bottom: 8%;
         }
 
         input{
@@ -722,6 +738,7 @@
             width: 4.5rem;
             font-size: 20px;
             margin-top: 5%;
+            margin-bottom: 5%;
         }
     }
 
@@ -734,9 +751,11 @@
     
             .footer{
                 width: auto;
+                font-size: 19px;
                 .logo_footer{
-                    width: 22vw;
+                    width: 28vw;
                     padding-bottom: 1.2rem;
+                    margin-left: 18%;
 
                 }
             }
@@ -886,56 +905,77 @@
 
         .sobre_nosotros{
             margin: 1%;
-            margin-top: 5%;
+            margin-top: 18%;
 
             .titulo_conocenos{
-                font-size: 34px;}
+                font-size: 30px;}
 
             .introduccion{
 
-                p{ font-size: 20px;
+                p{ font-size: 16px;
                     line-height: 1.4rem;}
             }
-
-            .cita_motivacional{
-                font-size: 23px;
+            .centro{
+                flex-direction: column;
+            }
+            .centro .cita_motivacional{
+                font-size: 21px;
                 line-height: 2rem;
+                margin-left: 0;
+                text-align: center;
+                width: 84%;
                 
             }
-            .about_me{
-                margin-top: 35%;
+            .centro .about_me{
+                margin-top: 0;
                 width: 38vw;
                 height: 65vw;
+                align-self: center;
              }
             .mision_y_vision{
 
-                h2{ 
-                    font-size: 32px;}
+                h2{ margin-top: 25%;
+                    font-size: 30px;
+                    margin-bottom: 8%;}
 
                 p{
-                    font-size: 20px;
-                    line-height: 1.4rem;}
+                    font-size: 16px;
+                    line-height: 1.4rem;
+                    width: 90%;}
             }
 
             .valores{ 
 
+                h2{ font-size: 30px;
+                    margin-bottom: 8%;
+
+                }
                 p{
-                    font-size: 22px;
-                    line-height: 1.6rem;}
+                    font-size: 16px;
+                    line-height: 1.6rem;
+                    width: 90%;}
 
                 ul li{
-                    font-size: 20px;
+                    font-size: 16px;
                     line-height: 2rem;
+                    width: 90%;
+                    text-align: justify
                 }
             }
 
             
-                
+                .titulo_equipo{ font-size: 30px;
+
+                }
                 .container_equipo{
                     flex-direction: column;
 
                     .equipo{
                         width: auto;
+
+                        p{
+                            font-size: 16px;
+                        }
 
                         img{ 
                             width: 35vw; }
@@ -948,7 +988,8 @@
                             width: 35vw;}
 
                         p{
-                            width: 70%;}
+                            width: 70%;
+                            font-size: 16px;}
                         }
 
                     }

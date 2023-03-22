@@ -18,7 +18,7 @@
             width: 90%;
 
             p{
-                font-size: 24px;
+                font-size: 22px;
                 text-align: justify;
                 line-height: 2rem;
                 margin-left: 15%;
@@ -28,7 +28,7 @@
           .cita_motivacional{
             justify-self: center;
             align-self: center;
-            font-size: 28px;
+            font-size: 26px;
             width: 45%;
             margin-left: 15%;
             padding-top: 3rem;}
@@ -49,7 +49,7 @@
                 }
 
                 p{
-                font-size: 24px;
+                font-size: 22px;
                 line-height: 2rem;
                 text-align: justify;
                 margin-left: 15%;
@@ -67,8 +67,8 @@
                     margin-left: 15%;
                 }
             
-                p{
-                    font-size: 24px;
+                p{text-align: justify;
+                    font-size: 22px;
                     margin-bottom: 1.5rem ;
                     margin-top: 1.5rem;
                     margin-left: 15%;
@@ -77,10 +77,12 @@
                 }
 
                 ul li {
+                    list-style: disc;
                     font-size: 24px;
-                    gap:1rem;
                     line-height: 2.4rem;
                     margin-left: 15%;
+                    margin-bottom: 1.4rem;
+                    text-align: justify;
                 }
             
             }
@@ -110,7 +112,7 @@
 
                     p{
                     width: 70%;
-                    font-size: 18px;
+                    font-size: 19px;
                     text-align: justify;
                     margin-left: 12%;
                     margin-bottom: 15%;  

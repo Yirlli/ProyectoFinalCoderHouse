@@ -1103,15 +1103,15 @@ form {
     width: 70vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
-    font-size: 25px;
+    font-size: 23px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
     width: 35vw;
-    font-size: 17px;
+    font-size: 16px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
-    width: 35vw;
-    font-size: 15px;
+    width: 58vw;
+    font-size: 14px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check {
     width: 54vw;

@@ -566,7 +566,7 @@ form {
   .barra_navegacion .header .burger {
     display: flex;
     margin-top: 5%;
-    margin-left: 55%;
+    margin-left: 55vw;
     height: 7vh;
   }
   .header-right {
@@ -772,6 +772,8 @@ form {
   }
   .barra_navegacion .header .burger {
     display: flex;
+    margin-left: 50vw;
+    height: 6vh;
   }
   .header-right {
     display: none;
@@ -808,7 +810,7 @@ form {
     font-size: 38px;
   }
   .grid-container .carousel-item img {
-    width: 220px;
+    width: 40vw;
   }
   .grid-container .grid-carusel h3 {
     font-size: 38px;
@@ -992,6 +994,8 @@ form {
   }
   .barra_navegacion .header .burger {
     display: flex;
+    margin-left: 30vw;
+    height: 6vh;
   }
   .index {
     padding-bottom: 33%;
@@ -1242,6 +1246,11 @@ form {
   }
 }
 @media screen and (max-width: 320px) {
+  .barra_navegacion .header .burger {
+    display: flex;
+    margin-left: 14vw;
+    height: 6vh;
+  }
   .inicio_de_sesion .fondo_inicio_sesion {
     width: 72vw;
   }
@@ -1333,7 +1342,7 @@ form {
     display: none;
   }
   .index .titulo_principal .boton_acceder {
-    width: 44vw;
+    width: 50vw;
     margin-top: 40%;
   }
   .container_categorias .tipos_de_categorias .imagenes_categorias {

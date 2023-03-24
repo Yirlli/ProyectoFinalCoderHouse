@@ -11,7 +11,7 @@
     .barra_navegacion .header .burger{
         display: flex;
         margin-top: 5%;
-        margin-left: 55%;
+        margin-left: 55vw;
         height: 7vh;
 
     }
@@ -210,6 +210,8 @@
 @media screen and (max-width: 768px)
 {
 
+  
+
     // inicio de sesion
     .inicio_de_sesion {
 
@@ -324,8 +326,12 @@
     }
     .barra_navegacion .header .burger{ 
     display: flex;
-    
+     margin-left: 50vw;
+     height: 6vh;
+       
     }
+    
+    
     .header-right{
     display:none;
     margin-top: 20px;
@@ -369,7 +375,7 @@
         }
     }
     .grid-container .carousel-item img {
-        width: 220px;
+        width: 40vw;
     }
 
     .grid-container .grid-carusel h3{
@@ -658,7 +664,9 @@
     }
 
     .barra_navegacion .header .burger{ 
-    display: flex;
+        display: flex;
+        margin-left: 30vw;
+        height: 6vh;
     }
 
 // PAGINA INDEX
@@ -1016,6 +1024,12 @@
 
 @media screen and  (max-width: 320px){
 
+    .barra_navegacion .header .burger{ 
+        display: flex;
+        margin-left: 14vw;
+        height: 6vh;
+    }
+
     // inicio de sesion
 .inicio_de_sesion {
 
@@ -1155,7 +1169,7 @@
         
 
         .titulo_principal .boton_acceder{
-            width: 44vw;
+            width: 50vw;
             margin-top: 40%;
                 }
         }

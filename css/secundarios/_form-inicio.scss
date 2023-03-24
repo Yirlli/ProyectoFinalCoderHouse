@@ -7,37 +7,37 @@
         margin-bottom: 15%;
         border-radius: 40%;
         margin-top: 5%;
-        width: 30vw;
+        width: 23vw;
         box-shadow: $colorSombraContainer;
 
         .logo_inicio{
             padding-top: 2rem;
-            width: 16vw;
+            width: 12vw;
             margin-left: 27%;
             
         }
         .form-check {
-            width: 25vw;
+            width: 19vw;
 
             .boton_cuenta{
-                margin-left:12% ;
+                margin-left:10% ;
                 width: 6vw;}
 
         }
         
         .formulario_inicio_sesion h1{
-            font-size: 40px; 
+            font-size: 31px; 
             margin-top: 15%;
             margin-bottom: 2rem;
             }
         .formulario_inicio_sesion .form-label, .form-control{
-            font-size: 20px;
+            font-size: 18px;
         }
         .formulario_inicio_sesion .form-label{
             font-weight: bold;
         }
         .formulario_inicio_sesion .form-control {
-            width: 63%;
+            width: 60%;
         }
         
         .olvide_contraseña{
@@ -46,5 +46,6 @@
     }
 
     .volver{
+        
         padding-bottom: 9%;}
 }

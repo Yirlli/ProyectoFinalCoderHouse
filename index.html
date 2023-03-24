@@ -13,7 +13,7 @@
 <body>
     <header class="barra_navegacion">
         <section class="header justify-content-between d-flex">
-            <img src="./img/Logotipo.png" alt="logo_empresa">
+            <a href="./index.html"><img src="./img/Logotipo.png" alt="logo_empresa"></a>
             <div class="dropdown burger">
               <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-view-list" viewBox="0 0 16 16">
@@ -30,13 +30,38 @@
                 <li><a class="dropdown-item" href="./pages/categorias.html">Categorías</a></li>
               </ul>
             </div>
-            <div class="header-right flex-column">
+            <div class="header-right">
                 <nav class="navegacion">
                     <ul class="nav-bar d-flex nav_superior">
-                        <li class="menu" > <a href="./pages/iniciasesion.html">Inicia Sesión</a></li>
-                        <li class="menu " ><a href="./pages/crearcuenta.html">Crear Cuenta</a></li>
                         
-                        <select name="pais" id="pais" data-aos="fade-up-left">
+                        <li class="menu " ><a href="./pages/sobrenosotros.html">Sobre Nosotros</a></li>
+                        <div class="dropdown" >
+                          <a class="btn dropdown-toggle menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorías
+                          </a>
+                          
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/categorias.html">Gestion de proyecto</a></li>
+                            <li><a class="dropdown-item" href="./pages/categorias.html">Soporte IT </a></li>
+                            <li><a class="dropdown-item" href="./pages/categorias.html">Salesforce</a></li>
+                            <li><a class="dropdown-item" href="./pages/categorias.html">Ventas e inmobiliarias</a></li>
+                          </ul>
+                          
+                        
+                        </div>
+                        <li class="menu " ><a href="./pages/crearcuenta.html">Contacto</a></li>
+                        
+                    </ul>
+
+                </nav>
+                <nav class="navegacion">
+                    <ul class="nav-bar nav_inferior d-flex">
+                      <li class="menu" > <a href="./pages/iniciasesion.html">Inicia Sesión</a></li>
+                        <li class="menu " ><a href="./pages/crearcuenta.html">Crear Cuenta</a></li>
+                      
+                        
+                        
+                          <select name="pais" id="pais" data-aos="fade-up-left">
                             <option value="Chile">Chile</option>
                             <option value="Peru">Peru</option>
                             <option value="Colombia">Colombia</option>
@@ -44,26 +69,7 @@
                             <option value="USA">USA</option>
                             <option value="Eruopa">Europa</option>
                         </select>
-                    </ul>
-
-                </nav>
-                <nav class="navegacion">
-                    <ul class="nav-bar nav_inferior d-flex">
-                        <li class="menu" >  <a href="./index.html">Home</a></li>
                         
-                        <div class="dropdown" >
-                            <a class="btn dropdown-toggle menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Categorías
-                            </a>
-                          
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="./pages/categorias.html">Gestion de proyecto</a></li>
-                              <li><a class="dropdown-item" href="./pages/categorias.html">Soporte IT </a></li>
-                              <li><a class="dropdown-item" href="./pages/categorias.html">Salesforce</a></li>
-                              <li><a class="dropdown-item" href="./pages/categorias.html">Ventas e inmobiliarias</a></li>
-                            </ul>
-                          </div>
-                        <li class="menu" data-aos="fade-up-left"><a href="#">Contacto</a></li>
                     </ul>
                 </nav>
             </div>

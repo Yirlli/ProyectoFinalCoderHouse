@@ -11,12 +11,17 @@
     .barra_navegacion .header .burger{
         display: flex;
         margin-top: 5%;
-        margin-right: 5%;
+        margin-left: 55%;
         height: 7vh;
 
     }
     .header-right{
-        display:none;
+        
+        width: 0;
+        .navegacion{
+            display: none;
+            width: 0;
+        }
     }
 
         .boton_acceder{
@@ -120,7 +125,7 @@
     .inicio_de_sesion {
 
         .fondo_inicio_sesion{
-            width: 40vw;
+            width: 30vw;
 
             .logo_inicio{
                 margin-left: 32%;
@@ -128,23 +133,23 @@
             }
 
             .formulario_inicio_sesion{
-                width: 40vw;
+                width: 30vw;
 
-                h1{
+                h1{font-size: 29px;
 
                 }
                 .form-label{
-                    width: 25vw;
+                    width: 20vw;
 
                 }
                 .form-control{
-                    width: 28vw;
+                    width: 24vw;
 
                 }
             }
 
             .form-check{
-                width: 32vw;
+                width: 25vw;
 
                 .boton_cuenta{
                     width: 9vw;
@@ -209,7 +214,7 @@
     .inicio_de_sesion {
 
         .fondo_inicio_sesion{
-            width: 48vw;
+            width: 40vw;
 
             .logo_inicio{
                 margin-left: 32%;
@@ -218,24 +223,25 @@
             }
 
             .formulario_inicio_sesion{
-                width: 48vw;
+                width: 40vw;
 
                 h1{
-                    font-size: 37px;
+                    font-size: 27px;
                 }
 
                 .form-label{
                     width: 25vw;
-                    font-size: 22px;
+                    font-size: 20px;
                 }
 
                 .form-control{
                     width: 31vw;
+                    font-size: 16px;
                  }
             }
 
             .form-check{
-                width: 38vw;
+                width: 35vw;
 
                 .boton_cuenta{
                     width: 11vw;
@@ -359,7 +365,7 @@
         margin-left: 20% ;
 
         h3{
-            font-size:45px ;
+            font-size:38px ;
         }
     }
     .grid-container .carousel-item img {
@@ -367,7 +373,7 @@
     }
 
     .grid-container .grid-carusel h3{
-        font-size: 45px;
+        font-size: 38px;
     }
     .grid-container .carousel-inner {
         padding-right: 50% ;
@@ -467,7 +473,7 @@
  .inicio_de_sesion {
 
     .fondo_inicio_sesion{
-        width: 54vw;
+        width: 50vw;
 
         .logo_inicio{
             margin-left: 30%;
@@ -476,15 +482,15 @@
         }
 
         .formulario_inicio_sesion{
-            width: 54vw;
+            width: 50vw;
 
             h1{
-                font-size: 33px;
+                font-size: 27px;
             }
 
             .form-label{
                 width: 25vw;
-                font-size: 22px;
+                font-size: 19px;
             }
             
             .form-control{
@@ -695,7 +701,7 @@
     }
 
     .grid-container .grid-acordion h3{
-        font-size: 40px;
+        font-size: 34px;
         margin-top: 15%;
     }
     .accordion{
@@ -703,7 +709,7 @@
         margin-left: 10%
     }
     .grid-container .grid-carusel h3 {
-        font-size: 40px;
+        font-size: 34px;
         
     }
     .grid-container .carousel-inner {
@@ -711,7 +717,7 @@
     }
     .grid-container .carousel-item img {
         width: 330px;
-        margin-left: 1.2rem;
+        margin-left: 3rem;
     }
 //SUBSCRICION DE BOLETIN
 
@@ -784,7 +790,7 @@
 .inicio_de_sesion {
 
     .fondo_inicio_sesion{
-        width: 70vw;
+        width: 65vw;
 
         .logo_inicio{
             margin-left: 30%;
@@ -796,17 +802,17 @@
             width: 70vw;
 
             h1{
-                font-size: 31px;
+                font-size: 25px;
             }
 
             .form-label{
-                width: 40vw;
-                font-size: 20px;
+                width: 35vw;
+                font-size: 17px;
             }
             
             .form-control{
-                width: 58vw;
-                font-size: 17px;
+                width: 35vw;
+                font-size: 15px;
              }
         }
 

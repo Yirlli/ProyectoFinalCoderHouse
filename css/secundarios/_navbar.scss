@@ -7,7 +7,7 @@
 
         img {
             align-self: center;
-            width: 16vw;
+            width: 9vw;
             margin-left: 2rem;}
 
         .burger{
@@ -15,7 +15,8 @@
             justify-content: right;}
          
             .header-right{
-                padding-right: 4rem;
+                display: flex;
+                padding-right: 3rem;
 
                 .navegacion{
 
@@ -52,30 +53,34 @@
                       }
 
                     .nav_superior{
-                        padding-top: 4rem;
+                        padding-top: 3rem;
+                        margin-right: 2rem;
 
+                        .dropdown{
+                            padding-top: -2rem;
+                        }
                         .menu {
                             list-style: none;
                             font-weight: bold;
-                            font-size: 25px;
+                            font-size: 17px;
                            }
                     }
                     .nav_inferior {
-                        padding-bottom: 1.3rem;
-                        padding-top: 2rem;
+                        
+                        padding-top: 3rem;
                         
                         .menu {
                             list-style: none;
                             font-weight: bold;
-                            font-size: 25px;
+                            font-size: 17px;
                            }
                     }
                     .nav-bar{
-                        gap: 6rem;
+                        gap: 3rem;
     
                         #pais{
                              width: 8rem;
-                             font-size: 23px
+                             font-size: 17px
                             }
                     }
                         

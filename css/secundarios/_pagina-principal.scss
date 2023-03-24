@@ -3,7 +3,7 @@
     padding-bottom: 3rem;
 
     h2{
-    font-size: 52px;
+    font-size: 40px;
         }
     }
 
@@ -25,11 +25,11 @@
             width: 18vw;
             border-radius: 15%;
             box-shadow: $colorSombraImagenes;
-            transition: 2s;
+            transition: 1s;
 
             &:hover {
-                height: 30vh;
-                width: 25vh;
+                
+                transform: scale(1.08)
                 }
             }
 
@@ -48,7 +48,7 @@
         text-align: center;
         padding-top:10%;
         padding-bottom: 8%;
-        font-size: 52px;}
+        font-size: 40px;}
 
         .accordion{
             width: 44%;
@@ -57,15 +57,20 @@
         }
 
         .accordion-body img{
-            width:20vw;
+            width:25vw;
             border-radius: 30%;
             align-self: center;
     
         }    
         .accordion-body p {
             margin-top: 1rem;
-            text-align: center;
+            text-align: justify;
+
         }
+        .accordion-body strong {
+            font-size: 19px;
+        }
+
         
         .grid-carusel .carousel .carousel-control-prev{
             margin-left: 20%;
@@ -74,10 +79,10 @@
             text-align: center;
             padding-top:15%;
             padding-bottom: 10%;
-            font-size: 52px;    
+            font-size: 40px;    
         }
         .carousel-inner{
-            padding-right: 35%;
+            padding-right: 30%;
             }
         .carousel-item img {
             width: 500px;

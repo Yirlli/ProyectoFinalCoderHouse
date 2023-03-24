@@ -28,7 +28,7 @@ form {
 }
 .barra_navegacion .header img {
   align-self: center;
-  width: 16vw;
+  width: 9vw;
   margin-left: 2rem;
 }
 .barra_navegacion .header .burger {
@@ -36,7 +36,8 @@ form {
   justify-content: right;
 }
 .barra_navegacion .header .header-right {
-  padding-right: 4rem;
+  display: flex;
+  padding-right: 3rem;
 }
 .barra_navegacion .header .header-right .navegacion {
   animation: scale-up-br 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -52,28 +53,31 @@ form {
   }
 }
 .barra_navegacion .header .header-right .navegacion .nav_superior {
-  padding-top: 4rem;
+  padding-top: 3rem;
+  margin-right: 2rem;
+}
+.barra_navegacion .header .header-right .navegacion .nav_superior .dropdown {
+  padding-top: -2rem;
 }
 .barra_navegacion .header .header-right .navegacion .nav_superior .menu {
   list-style: none;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 17px;
 }
 .barra_navegacion .header .header-right .navegacion .nav_inferior {
-  padding-bottom: 1.3rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 .barra_navegacion .header .header-right .navegacion .nav_inferior .menu {
   list-style: none;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 17px;
 }
 .barra_navegacion .header .header-right .navegacion .nav-bar {
-  gap: 6rem;
+  gap: 3rem;
 }
 .barra_navegacion .header .header-right .navegacion .nav-bar #pais {
   width: 8rem;
-  font-size: 23px;
+  font-size: 17px;
 }
 .barra_navegacion .header .header-right .navegacion:nth-child(1) {
   animation-delay: 1s;
@@ -126,7 +130,7 @@ form {
   padding-bottom: 3rem;
 }
 .categorias_titulo h2 {
-  font-size: 52px;
+  font-size: 40px;
 }
 
 .container_categorias {
@@ -144,11 +148,10 @@ form {
   width: 18vw;
   border-radius: 15%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: 2s;
+  transition: 1s;
 }
 .container_categorias .tipos_de_categorias .imagenes_categorias:hover {
-  height: 30vh;
-  width: 25vh;
+  transform: scale(1.08);
 }
 
 .tipos_de_categorias h3 {
@@ -160,20 +163,23 @@ form {
   text-align: center;
   padding-top: 10%;
   padding-bottom: 8%;
-  font-size: 52px;
+  font-size: 40px;
 }
 .grid-container .accordion {
   width: 44%;
   margin-left: 29%;
 }
 .grid-container .accordion-body img {
-  width: 20vw;
+  width: 25vw;
   border-radius: 30%;
   align-self: center;
 }
 .grid-container .accordion-body p {
   margin-top: 1rem;
-  text-align: center;
+  text-align: justify;
+}
+.grid-container .accordion-body strong {
+  font-size: 19px;
 }
 .grid-container .grid-carusel .carousel .carousel-control-prev {
   margin-left: 20%;
@@ -182,10 +188,10 @@ form {
   text-align: center;
   padding-top: 15%;
   padding-bottom: 10%;
-  font-size: 52px;
+  font-size: 40px;
 }
 .grid-container .carousel-inner {
-  padding-right: 35%;
+  padding-right: 30%;
 }
 .grid-container .carousel-item img {
   width: 500px;
@@ -200,34 +206,34 @@ form {
   margin-bottom: 15%;
   border-radius: 40%;
   margin-top: 5%;
-  width: 30vw;
+  width: 23vw;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
   padding-top: 2rem;
-  width: 16vw;
+  width: 12vw;
   margin-left: 27%;
 }
 .inicio_de_sesion .fondo_inicio_sesion .form-check {
-  width: 25vw;
+  width: 19vw;
 }
 .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
-  margin-left: 12%;
+  margin-left: 10%;
   width: 6vw;
 }
 .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
-  font-size: 40px;
+  font-size: 31px;
   margin-top: 15%;
   margin-bottom: 2rem;
 }
 .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label, .inicio_de_sesion .fondo_inicio_sesion .form-control {
-  font-size: 20px;
+  font-size: 18px;
 }
 .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
   font-weight: bold;
 }
 .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
-  width: 63%;
+  width: 60%;
 }
 .inicio_de_sesion .fondo_inicio_sesion .olvide_contraseña {
   margin-left: 28%;
@@ -314,12 +320,11 @@ form {
   padding-bottom: 4.5vh;
 }
 .todas_las_asesorias .grid .box_categorias .card {
-  transition-duration: 2s;
+  transition-duration: 0.8s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .todas_las_asesorias .grid .box_categorias .card:hover {
-  height: 200px;
-  width: 300px;
+  transform: scale(1.1);
 }
 .todas_las_asesorias .grid .box_categorias .card img {
   max-height: 122px;
@@ -473,7 +478,7 @@ form {
 .boton_cuenta {
   width: 8vw;
   border-radius: 40px;
-  margin-left: 15%;
+  margin-left: 12%;
   margin-top: 8%;
   margin-bottom: 10%;
   background-color: darkcyan;
@@ -561,11 +566,15 @@ form {
   .barra_navegacion .header .burger {
     display: flex;
     margin-top: 5%;
-    margin-right: 5%;
+    margin-left: 55%;
     height: 7vh;
   }
   .header-right {
+    width: 0;
+  }
+  .header-right .navegacion {
     display: none;
+    width: 0;
   }
   .boton_acceder {
     width: 13vw;
@@ -640,22 +649,25 @@ form {
     margin-left: 10%;
   }
   .inicio_de_sesion .fondo_inicio_sesion {
-    width: 40vw;
+    width: 30vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
     margin-left: 32%;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
-    width: 40vw;
+    width: 30vw;
+  }
+  .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
+    font-size: 29px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
-    width: 25vw;
+    width: 20vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
-    width: 28vw;
+    width: 24vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check {
-    width: 32vw;
+    width: 25vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
     width: 9vw;
@@ -693,27 +705,28 @@ form {
 }
 @media screen and (max-width: 768px) {
   .inicio_de_sesion .fondo_inicio_sesion {
-    width: 48vw;
+    width: 40vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
     margin-left: 32%;
     width: 20vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
-    width: 48vw;
+    width: 40vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
-    font-size: 37px;
+    font-size: 27px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
     width: 25vw;
-    font-size: 22px;
+    font-size: 20px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
     width: 31vw;
+    font-size: 16px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check {
-    width: 38vw;
+    width: 35vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check .boton_cuenta {
     width: 11vw;
@@ -792,13 +805,13 @@ form {
     margin-left: 20%;
   }
   .grid-container .accordion h3 {
-    font-size: 45px;
+    font-size: 38px;
   }
   .grid-container .carousel-item img {
     width: 220px;
   }
   .grid-container .grid-carusel h3 {
-    font-size: 45px;
+    font-size: 38px;
   }
   .grid-container .carousel-inner {
     padding-right: 50%;
@@ -869,21 +882,21 @@ form {
     height: 20%;
   }
   .inicio_de_sesion .fondo_inicio_sesion {
-    width: 54vw;
+    width: 50vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
     margin-left: 30%;
     width: 24vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion {
-    width: 54vw;
+    width: 50vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
-    font-size: 33px;
+    font-size: 27px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
     width: 25vw;
-    font-size: 22px;
+    font-size: 19px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
     width: 38vw;
@@ -1009,7 +1022,7 @@ form {
     width: 50vw;
   }
   .grid-container .grid-acordion h3 {
-    font-size: 40px;
+    font-size: 34px;
     margin-top: 15%;
   }
   .accordion {
@@ -1017,14 +1030,14 @@ form {
     margin-left: 10%;
   }
   .grid-container .grid-carusel h3 {
-    font-size: 40px;
+    font-size: 34px;
   }
   .grid-container .carousel-inner {
     padding-right: 100%;
   }
   .grid-container .carousel-item img {
     width: 330px;
-    margin-left: 1.2rem;
+    margin-left: 3rem;
   }
   .suscribe_boletin {
     margin-top: 10%;
@@ -1076,7 +1089,7 @@ form {
     width: 1vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion {
-    width: 70vw;
+    width: 65vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .logo_inicio {
     margin-left: 30%;
@@ -1086,15 +1099,15 @@ form {
     width: 70vw;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion h1 {
-    font-size: 31px;
+    font-size: 25px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-label {
-    width: 40vw;
-    font-size: 20px;
+    width: 35vw;
+    font-size: 17px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .formulario_inicio_sesion .form-control {
-    width: 58vw;
-    font-size: 17px;
+    width: 35vw;
+    font-size: 15px;
   }
   .inicio_de_sesion .fondo_inicio_sesion .form-check {
     width: 54vw;

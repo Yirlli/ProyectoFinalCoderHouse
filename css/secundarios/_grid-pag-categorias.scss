@@ -28,11 +28,10 @@
             padding-bottom: 4.5vh;
             
             .card{
-                transition-duration: 2s;
+                transition-duration: 0.8s;
                 box-shadow: $colorSombraCategoria;
                 &:hover {
-                    height: 200px;
-                    width: 300px;
+                    transform: scale(1.1)
                     }
 
                 img{

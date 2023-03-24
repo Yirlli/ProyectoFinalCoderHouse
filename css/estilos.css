@@ -421,6 +421,10 @@ form {
 }
 .about_company .sobre_nosotros .container_equipo .equipo {
   width: 50%;
+  transition: 1s;
+}
+.about_company .sobre_nosotros .container_equipo .equipo:hover {
+  transform: scale(1.08);
 }
 .about_company .sobre_nosotros .container_equipo .equipo img {
   width: 13vw;
@@ -437,6 +441,10 @@ form {
 }
 .about_company .sobre_nosotros .container_equipo .last {
   width: 100%;
+  transition: 1s;
+}
+.about_company .sobre_nosotros .container_equipo .last:hover {
+  transform: scale(1.08);
 }
 .about_company .sobre_nosotros .container_equipo .last img {
   width: 15vw;

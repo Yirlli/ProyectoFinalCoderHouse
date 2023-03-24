@@ -101,6 +101,12 @@
                 
                 .equipo{
                     width: 50%;
+                    transition: 1s;
+
+                    &:hover{
+                        transform: scale(1.08)
+                    }
+                    
                     
 
                     img{
@@ -121,6 +127,11 @@
             
                 .last{
                     width: 100%;
+                    transition: 1s;
+
+                    &:hover{
+                        transform: scale(1.08)
+                    }
 
                     img{
                         width: 15vw;

@@ -173,7 +173,7 @@
    .crear_cuenta{
 
             .fondo_apertura {
-                width: 50vw;
+                width: 42vw;
     
                 .logo_crear_cuenta{
                     margin-left: 32%;
@@ -182,14 +182,15 @@
     
                 }
                 .apertura{
-                    width: 50vw;
+                    width: 42vw;
     
                     .form-check{ 
                         margin-left:0.5rem ;
                     
                     .form-check{
                         width: 28vw;
-                    }}
+                    }
+                }
     
                     .form-control, .form-select {
                         width: 33vw;
@@ -228,12 +229,12 @@
                 width: 40vw;
 
                 h1{
-                    font-size: 27px;
+                    font-size: 20px;
                 }
 
                 .form-label{
                     width: 25vw;
-                    font-size: 20px;
+                    font-size: 19px;
                 }
 
                 .form-control{
@@ -545,7 +546,7 @@
                 width: 68vw;
 
                 h1{
-                    font-size:35px ;
+                    font-size:27px ;
                 }
 
                 .form-check{ 
@@ -559,6 +560,7 @@
 
                 .form-control, .form-select {
                     width: 53vw;
+                    font-size: 15px;
                     }
                 .boton_cuenta{
                     margin-left: 10%;

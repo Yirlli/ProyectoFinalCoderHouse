@@ -8,31 +8,32 @@
     margin-top: 6%;
     margin-bottom: 8%;
     box-shadow: $colorSombraContainer;
+    width: 28vw;
 
         .logo_crear_cuenta{
         width: 16vw;
         margin-top: 3vw;
-        margin-left: 9vw;
+        margin-left: 7vw;
             }
 
         .apertura{
         gap:1rem;
         margin-top: 5rem;
         align-items: center;
-        width: 33vw;
+        width: 28vw;
 
             .apertura h1{
-                font-size: 25px;
+                font-size: 22px;
             text-align: center;
             margin-bottom: 10%; 
             }
             .form-label {
-            font-size: 23px;
+            font-size: 21px;
             font-weight: bold;
             }
 
             .form-control{
-            font-size: 20px;
+            font-size: 19px;
             }
 
             .form-control, .form-select {
@@ -43,7 +44,7 @@
                     margin-left: 5rem;
 
                     .form-check-label{
-                    font-size: 20px;
+                    font-size: 18px;
                     width: 20vw;
                     
                     }

@@ -995,7 +995,7 @@ form {
   .barra_navegacion .header .burger {
     display: flex;
     margin-left: 30vw;
-    height: 6vh;
+    height: 8vh;
   }
   .index {
     padding-bottom: 33%;

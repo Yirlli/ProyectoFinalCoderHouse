@@ -25,9 +25,10 @@
             margin-left: 6%;
             margin-right: 6%;
             width: 90%;
-            padding-bottom: 4.5vh;
+            padding-bottom: 7vh;
             
             .card{
+                height: 34rem;
                 transition-duration: 0.8s;
                 box-shadow: $colorSombraCategoria;
                 &:hover {

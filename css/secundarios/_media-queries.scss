@@ -3,6 +3,7 @@
 {
 
 // NAVBAR
+
     .barra_navegacion .header img {
         width: 20vw;
         margin-left: 1rem;
@@ -12,16 +13,12 @@
         display: flex;
         margin-top: 5%;
         margin-left: 55vw;
-        height: 7vh;
+       
 
     }
-    .header-right{
-        
-        width: 0;
-        .navegacion{
-            display: none;
-            width: 0;
-        }
+    .barra_navegacion .header .header-right{
+        display: none;
+        width: 0;  
     }
 
         .boton_acceder{
@@ -92,8 +89,6 @@
             width: 30vw;
             margin-left: 1.5rem;
             margin-bottom: 0.1%;
-            
-
         }
 
         button{
@@ -328,14 +323,14 @@
     .barra_navegacion .header .burger{ 
     display: flex;
      margin-left: 50vw;
-     height: 6vh;
+     
        
     }
     
     
-    .header-right{
-    display:none;
-    margin-top: 20px;
+    .barra_navegacion .header .header-right{
+        display: none;
+        width: 0;  
     }
 
 // PAGINA INDEX
@@ -668,7 +663,7 @@
     .barra_navegacion .header .burger{ 
         display: flex;
         margin-left: 30vw;
-        height: 8vh;
+       
     }
 
 // PAGINA INDEX
@@ -1029,7 +1024,7 @@
     .barra_navegacion .header .burger{ 
         display: flex;
         margin-left: 14vw;
-        height: 6vh;
+        
     }
 
     // inicio de sesion
